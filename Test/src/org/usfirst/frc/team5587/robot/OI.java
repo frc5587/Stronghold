@@ -17,10 +17,10 @@ public class OI {
     // number it is.
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
-    Joystick stick = new Joystick( RobotMap.joystickPort);
+    Joystick stick = new Joystick( RobotMap.JOYSTICK_PORT);
     
-    Button spinIn = new JoystickButton( stick, RobotMap.spinIn );
-    Button fire = new JoystickButton( stick, RobotMap.shoot );
+    Button spinIn = new JoystickButton( stick, RobotMap.SPIN_IN );
+    Button fire = new JoystickButton( stick, RobotMap.SHOOT );
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
     // commands the same as any other Button.
