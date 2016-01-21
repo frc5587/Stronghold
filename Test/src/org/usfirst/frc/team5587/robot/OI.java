@@ -10,6 +10,7 @@ import org.usfirst.frc.team5587.robot.commands.ExampleCommand;
  * This class is the glue that binds the controls on the physical operator
  * interface to the commands and command groups that allow control of the robot.
  */
+@SuppressWarnings("unused")
 public class OI {
     //// CREATING BUTTONS
     // One type of button is a joystick button which is any button on a joystick.
@@ -17,10 +18,17 @@ public class OI {
     // number it is.
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
-    Joystick stick = new Joystick( RobotMap.JOYSTICK_PORT);
     
-    Button spinIn = new JoystickButton( stick, RobotMap.SPIN_IN );
-    Button fire = new JoystickButton( stick, RobotMap.SHOOT );
+	//Add a Joystick here
+	
+	
+    //Add Buttons here
+	//1st button causes firing wheels to spin inwards to collect balls
+	
+	//2nd button spins wheels outwards to fire balls
+    
+    
+    
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
     // commands the same as any other Button.
