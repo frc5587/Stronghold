@@ -1,0 +1,55 @@
+package org.usfirst.frc.team5587.robot.subsystems;
+
+import org.usfirst.frc.team5587.robot.RobotMap;
+
+import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.RobotDrive;
+import edu.wpi.first.wpilibj.command.Subsystem;
+
+/**
+ * This subsystem contains the motors in the drive train
+ */
+public class DriveTrain extends Subsystem {
+    
+    // Put methods for controlling this subsystem
+    // here. Call these from Commands.
+	private RobotDrive trotter;
+	private static double SCALE_FACTOR = 1.0;
+	
+	//Creates a new DriveTrain object and initializes the RobotDrive trotter
+	public DriveTrain()
+	{
+		trotter = new RobotDrive( RobotMap.LEFT_FRONT_MOTOR,
+								  RobotMap.LEFT_REAR_MOTOR,
+								  RobotMap.RIGHT_FRONT_MOTOR,
+								  RobotMap.RIGHT_REAR_MOTOR );
+		trotter.setInvertedMotor( RobotDrive.MotorType.kFrontRight, true );
+		trotter.setInvertedMotor( RobotDrive.MotorType.kRearRight, true);
+	}
+	
+	/*
+	 * Brings Pallas into motion based on numerical input
+	 * 
+	 * @param pwr The power level on which to run the drive train motors
+	 * @param curve A value used to calculate the power of the different sides of the robot for the desired curve
+	 */
+	public void trot( double pwr, double curve)
+	{
+		trotter.drive( pwr, curve );
+	}
+
+	/*
+	 * Allows the driver to
+	 */
+	public void canter( Joystick stick )
+	{
+		
+		trotter.arcadeDrive( stick, false);
+	}
+	
+    public void initDefaultCommand() {
+        // Set the default command for a subsystem here.
+        //setDefaultCommand(new MySpecialCommand());
+    }
+}
+

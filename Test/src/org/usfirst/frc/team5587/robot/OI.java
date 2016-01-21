@@ -19,7 +19,7 @@ public class OI {
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
 	
-	private Joystick stick = new Joystick( RobotMap.JOYSTICK_PORT );
+	private Joystick stick = new Joystick( RobotMap.DRIVER );
 	
 	/*
 	 * Add a getter method getStick that will return the Joystick object stick

@@ -1,7 +1,10 @@
 package org.usfirst.frc.team5587.robot;
 
+import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.Button;
-import org.usfirst.frc.team5587.robot.commands.ExampleCommand;
+import edu.wpi.first.wpilibj.buttons.JoystickButton;
+import org.usfirst.frc.team5587.robot.commands.firing.Fire;
+import org.usfirst.frc.team5587.robot.commands.firing.TakeIn;
 
 /**
  * This class is the glue that binds the controls on the physical operator
@@ -14,7 +17,25 @@ public class OI {
     // number it is.
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
+    Joystick driver, codriver;
+	Button sweepIn, fire, up, down;
     
+	public OI()
+	{
+		//Joysticks
+		driver = new Joystick( RobotMap.DRIVER );
+    	codriver = new Joystick( RobotMap.CODRIVER );
+	
+    	//Buttons
+    	sweepIn = new JoystickButton( codriver, RobotMap.SWEEP_IN );
+    	fire = new JoystickButton( codriver, RobotMap.FIRE );
+    	up = new JoystickButton( codriver, RobotMap.UP );
+    	down = new JoystickButton( codriver, RobotMap.DOWN );
+    
+    	//Buttons and Commands
+    	sweepIn.whileHeld( new TakeIn() );
+    	fire.whenPressed( new Fire() );
+	}
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
     // commands the same as any other Button.

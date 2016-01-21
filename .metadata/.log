@@ -991,3 +991,2489 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY WPILib_Java_Robot_Development 1 0 2016-01-20 23:19:19.527
 !MESSAGE Project: Codicem Pallas Package: org.usfirst.frc.team5587.robot Project Type: edu.wpi.first.wpilib.plugins.java.wizards.newproject.JavaProjectType$3@62f63625
+!SESSION 2016-01-21 11:08:32.906 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-21 11:09:18.547
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wanderer'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-21 11:09:24.387
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-21 11:09:24.392
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-21 11:09:24.397
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-21 11:09:24.400
+!MESSAGE Installedjava
+!SESSION 2016-01-21 11:13:47.480 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-21 11:14:35.226
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wanderer'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-21 11:14:36.474
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-21 11:14:36.486
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-21 11:14:36.594
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-21 11:14:36.637
+!MESSAGE Installedjava
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2016-01-21 12:06:55.326
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_66\lib\rt.jar
+  [+] C:\Users\Wanderer\wpilib\java\current\lib\NetworkTables.jar
+  [+] C:\Users\Wanderer\wpilib\java\current\lib\WPILib.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:18:18.246
+!MESSAGE [P/Codicem Pallas]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:18:18.248
+!MESSAGE class org.eclipse.core.internal.resources.Project
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:18:18.515
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:18:18.519
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:12.822
+!MESSAGE [org.usfirst.frc.team5587.robot.commands.drivetrain [in src [in Codicem Pallas]]]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:12.824
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:12.879
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:12.882
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:34.936
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  ExampleCommand.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team5587.robot.Robot
+    class ExampleCommand
+      ExampleCommand()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:34.949
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:35.117
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:35.120
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:19:56.813
+!MESSAGE Class: ArcadeDrive Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:21:03.357
+!MESSAGE [org.usfirst.frc.team5587.robot.subsystems [in src [in Codicem Pallas]]
+  ExampleSubsystem.java (not open)]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:21:03.359
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:21:03.423
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:21:03.425
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:22:56.209
+!MESSAGE Class: Trotter Package: org.usfirst.frc.team5587.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:23:35.730
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  ExampleCommand.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team5587.robot.Robot
+    class ExampleCommand
+      ExampleCommand()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] ControlledTrot.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    class ControlledTrot
+      ControlledTrot()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:23:35.731
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:23:35.826
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:23:35.828
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:37.329
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:37.496
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:37.888
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:38.055
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:38.521
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:39.082
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:39.496
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:39.908
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:42.331
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:42.583
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:42.830
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:42.935
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:43.239
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:43.414
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:43.502
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:44.016
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:44.247
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:44.480
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:44.567
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:44.734
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:45.032
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:45.159
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$3.modifyText(FileTemplateWizardMainPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Combo.wmCommandChild(Combo.java:3144)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:476)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Combo.callWindowProc(Combo.java:492)
+	at org.eclipse.swt.widgets.Combo.windowProc(Combo.java:2692)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:48.663
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$4.modifyText(FileTemplateWizardMainPage.java:104)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3071)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:260)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2671)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:48.990
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$4.modifyText(FileTemplateWizardMainPage.java:104)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3071)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:260)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2671)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:48.994
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$4.modifyText(FileTemplateWizardMainPage.java:104)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3071)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:260)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2671)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2016-01-21 12:23:49.095
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4472)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Combo.getItem(Combo.java:1077)
+	at edu.wpi.first.wpilib.plugins.core.wizards.ProjectComboField.getProject(ProjectComboField.java:37)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.dialogChanged(FileTemplateWizardMainPage.java:144)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage.access$4(FileTemplateWizardMainPage.java:139)
+	at edu.wpi.first.wpilib.plugins.java.wizards.file_template.FileTemplateWizardMainPage$4.modifyText(FileTemplateWizardMainPage.java:104)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3071)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:260)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2671)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:99)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:02.585
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  ExampleCommand.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team5587.robot.Robot
+    class ExampleCommand
+      ExampleCommand()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] ControlledTrot.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    class ControlledTrot
+      ControlledTrot()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:02.585
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:02.629
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:02.632
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:07.305
+!MESSAGE Class: Trot Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:30.903
+!MESSAGE [org.usfirst.frc.team5587.robot.subsystems [in src [in Codicem Pallas]]
+  ExampleSubsystem.java (not open)
+  Trotter.java (not open)]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:30.906
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:30.961
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:24:30.964
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 12:25:02.656
+!MESSAGE Class: AssaultFixture Package: org.usfirst.frc.team5587.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:17:13.406
+!MESSAGE [P/Codicem Pallas]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:17:13.406
+!MESSAGE class org.eclipse.core.internal.resources.Project
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:17:13.481
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:17:13.484
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:17:37.451
+!MESSAGE Class: BasicAuto Package: org.usfirst.frc.team5587.robot.commands.groups
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:17:45.497
+!MESSAGE Class: BasicAuto Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:20:37.851
+!MESSAGE [org.usfirst.frc.team5587.robot.commands.modes [in src [in Codicem Pallas]]
+  BasicAuto.java (not open)]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:20:37.852
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:20:37.904
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:20:37.908
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:20:47.922
+!MESSAGE Class: TeleopDrive Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:51:59.653
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:51:59.657
+!MESSAGE Targets: simulate, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:55:58.913
+!MESSAGE [org.usfirst.frc.team5587.robot.subsystems [in src [in Codicem Pallas]]
+  AssaultFixture.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class AssaultFixture
+      void initDefaultCommand()
+  [Working copy] Hooves.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import org.usfirst.frc.team5587.robot.RobotMap
+    import edu.wpi.first.wpilibj.Joystick
+    import edu.wpi.first.wpilibj.RobotDrive
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class Hooves
+      double SCALE_FACTOR
+      RobotDrive trotter
+      Hooves()
+      void trot(double, double)
+      void canter(Joystick)
+      void initDefaultCommand()
+  ExampleSubsystem.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class ExampleSubsystem
+      void initDefaultCommand()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:55:58.977
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:55:59.045
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:55:59.054
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 13:58:16.467
+!MESSAGE Class: AimingFixture Package: org.usfirst.frc.team5587.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:02:17.931
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  Canter.java (not open)
+  Trot.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class Trot
+      double power
+      double curve
+      double targetTime
+      double elapsedTime
+      long startTime
+      long endTime
+      Trot(double, double, double)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:02:17.932
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:02:17.994
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:02:18.000
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:02:27.594
+!MESSAGE Class: SpinUp Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:08:39.778
+!MESSAGE [org.usfirst.frc.team5587.robot.subsystems [in src [in Codicem Pallas]]
+  [Working copy] Hooves.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import org.usfirst.frc.team5587.robot.RobotMap
+    import edu.wpi.first.wpilibj.Joystick
+    import edu.wpi.first.wpilibj.RobotDrive
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class Hooves
+      double SCALE_FACTOR
+      RobotDrive trotter
+      Hooves()
+      void trot(double, double)
+      void canter(Joystick)
+      void initDefaultCommand()
+  AimingFixture.java (not open)
+  [Working copy] BoulderWheels.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import org.usfirst.frc.team5587.robot.RobotMap
+    import edu.wpi.first.wpilibj.RobotDrive
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class BoulderWheels
+      RobotDrive boulders
+      BoulderWheels()
+      void spin(double)
+      void initDefaultCommand()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:08:39.780
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:08:39.863
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:08:39.868
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:10:03.738
+!MESSAGE Class: BoulderLoader Package: org.usfirst.frc.team5587.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:23:07.370
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  Canter.java (not open)
+  Trot.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class Trot
+      double power
+      double curve
+      double targetTime
+      double elapsedTime
+      long startTime
+      long endTime
+      Trot(double, double, double)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] SpinUp.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import org.usfirst.frc.team5587.robot.subsystems.FiringWheels
+    import edu.wpi.first.wpilibj.command.Command
+    class SpinUp
+      double power
+      SpinUp()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:23:07.370
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:23:07.419
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:23:07.421
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:23:17.932
+!MESSAGE Class: SpinDown Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:30:47.634
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  Canter.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import edu.wpi.first.wpilibj.Joystick
+    import edu.wpi.first.wpilibj.command.Command
+    class Canter
+      Joystick stick
+      Canter(Joystick)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Trot.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class Trot
+      double power
+      double curve
+      double targetTime
+      double elapsedTime
+      long startTime
+      long endTime
+      Trot(double, double, double)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] SpinUp.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import org.usfirst.frc.team5587.robot.subsystems.FiringWheels
+    import edu.wpi.first.wpilibj.command.Command
+    class SpinUp
+      double power
+      double STEP
+      SpinUp()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] SpinDown.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import org.usfirst.frc.team5587.robot.subsystems.FiringWheels
+    import edu.wpi.first.wpilibj.command.Command
+    class SpinDown
+      double power
+      double STEP
+      SpinDown()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:30:47.634
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:30:47.706
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:30:47.709
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:31:33.120
+!MESSAGE Class: TakeIn Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:41:33.903
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  Canter.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import edu.wpi.first.wpilibj.Joystick
+    import edu.wpi.first.wpilibj.command.Command
+    class Canter
+      Joystick stick
+      Canter(Joystick)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Trot.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import edu.wpi.first.wpilibj.command.Command
+    class Trot
+      double power
+      double curve
+      double targetTime
+      double elapsedTime
+      long startTime
+      long endTime
+      Trot(double, double, double)
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] SpinUp.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import org.usfirst.frc.team5587.robot.subsystems.FiringWheels
+    import edu.wpi.first.wpilibj.command.Command
+    class SpinUp
+      double power
+      double STEP
+      SpinUp()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] SpinDown.java
+    package org.usfirst.frc.team5587.robot.commands
+    import org.usfirst.frc.team5587.robot.Robot
+    import org.usfirst.frc.team5587.robot.subsystems.FiringWheels
+    import edu.wpi.first.wpilibj.command.Command
+    class SpinDown
+      double power
+      double STEP
+      SpinDown()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  TakeIn.java (not open)]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:41:33.913
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:41:33.963
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:41:33.966
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:41:53.225
+!MESSAGE Class: MaintainSpeed Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:52:40.934
+!MESSAGE [org.usfirst.frc.team5587.robot.commands.firing [in src [in Codicem Pallas]]
+  SpinDown.java (not open)
+  SpinUp.java (not open)
+  TakeIn.java (not open)]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:52:40.934
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:52:41.002
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:52:41.005
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 14:52:55.922
+!MESSAGE Class: Fire Package: org.usfirst.frc.team5587.robot.commands.firing
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 15:01:50.122
+!MESSAGE [org.usfirst.frc.team5587.robot.commands.firing [in src [in Codicem Pallas]]
+  SpinDown.java (not open)
+  SpinUp.java (not open)
+  TakeIn.java
+    package org.usfirst.frc.team5587.robot.commands.firing
+    import org.usfirst.frc.team5587.robot.Robot
+    import org.usfirst.frc.team5587.robot.subsystems.FiringWheels
+    import edu.wpi.first.wpilibj.command.Command
+    class TakeIn
+      TakeIn()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  [Working copy] Load.java
+    package org.usfirst.frc.team5587.robot.commands.firing
+    import org.usfirst.frc.team5587.robot.Robot
+    import org.usfirst.frc.team5587.robot.subsystems.FiringWheels
+    import edu.wpi.first.wpilibj.command.Command
+    class Load
+      int LOADING_ANGLE
+      Load()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 15:01:50.132
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 15:01:50.210
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 15:01:50.214
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 15:01:53.786
+!MESSAGE Class: Fire Package: org.usfirst.frc.team5587.robot.commands
