@@ -18,14 +18,14 @@ public class OI {
     // number it is.
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
+	
+	private Joystick stick = new Joystick( RobotMap.JOYSTICK_PORT );
+	
+	/*
+	 * Add a getter method getStick that will return the Joystick object stick
+	 */
+	
     
-	//Add a Joystick here
-	
-	
-    //Add Buttons here
-	//1st button causes firing wheels to spin inwards to collect balls
-	
-	//2nd button spins wheels outwards to fire balls
     
     
     

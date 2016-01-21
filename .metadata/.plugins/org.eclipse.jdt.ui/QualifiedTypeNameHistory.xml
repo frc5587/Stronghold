@@ -2,4 +2,8 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Encoder"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.CounterBase.EncodingType"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotDrive"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.DriveTrain"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.Robot"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.RobotMap"/>
 </qualifiedTypeNameHistroy>
