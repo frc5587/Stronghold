@@ -21,7 +21,8 @@ public class RobotMap {
 	public static int RIGHT_SHOOTER= 5;
 	public static int AIM_MOTOR = 6;
 	
-    public static int JOYSTICK_PORT = 1;
+    public static int DRIVER_PORT = 1;
+    public static int CODRIVER_PORT = 2;
     
     //Buttons
     public static int SPIN_IN = 0;
