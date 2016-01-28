@@ -4,10 +4,12 @@ package org.usfirst.frc.team5587.robot;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
+import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
+
+import org.usfirst.frc.team5587.robot.commands.ArcadeDrive;
 import org.usfirst.frc.team5587.robot.commands.ExampleCommand;
 import org.usfirst.frc.team5587.robot.subsystems.DriveTrain;
-import org.usfirst.frc.team5587.robot.subsystems.ExampleSubsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
@@ -20,11 +22,13 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  */
 public class Robot extends IterativeRobot {
 
-	public static final ExampleSubsystem exampleSubsystem = new ExampleSubsystem();
+	
 	public static OI oi;
-	public static DriveTrain train;
+	public static Subsystem exampleSubsystem;
+	//Here create instances of each subsystem, all of which are public, static, and final
 
     Command autonomousCommand;
+    Command teleOpCommand;
     SendableChooser chooser;    
 
     /**
@@ -37,7 +41,7 @@ public class Robot extends IterativeRobot {
         chooser.addDefault("Default Auto", new ExampleCommand());
 //        chooser.addObject("My Auto", new MyAutoCommand());
         SmartDashboard.putData("Auto mode", chooser);
-        train = new DriveTrain();
+        teleOpCommand = new ArcadeDrive();
     }
 	
 	/**
@@ -93,6 +97,7 @@ public class Robot extends IterativeRobot {
         // continue until interrupted by another command, remove
         // this line or comment it out.
         if (autonomousCommand != null) autonomousCommand.cancel();
+        if (teleOpCommand != null) teleOpCommand.start();
     }
 
     /**

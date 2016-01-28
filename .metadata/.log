@@ -3477,3 +3477,266 @@ java.lang.IllegalArgumentException: Index out of bounds
 
 !ENTRY WPILib_Java_Robot_Development 1 0 2016-01-21 15:01:53.786
 !MESSAGE Class: Fire Package: org.usfirst.frc.team5587.robot.commands
+!SESSION 2016-01-24 00:16:07.783 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-24 00:17:22.046
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wanderer'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-24 00:17:28.861
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-24 00:17:28.873
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-24 00:17:28.909
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-24 00:17:29.065
+!MESSAGE Installedjava
+!SESSION 2016-01-25 14:23:31.246 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-25 14:24:33.479
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wanderer'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-25 14:24:37.039
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-25 14:24:37.039
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-25 14:24:37.049
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-25 14:24:37.049
+!MESSAGE Installedjava
+!SESSION 2016-01-27 20:17:10.948 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-27 20:17:59.420
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wanderer'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-27 20:18:02.980
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-27 20:18:03.000
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-27 20:18:03.000
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-01-27 20:18:03.000
+!MESSAGE Installedjava
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 3 2016-01-27 20:26:37.021
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar
+  [+] C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\rt.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\cldrdata.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\jfxrt.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\localedata.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\zipfs.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\dnsns.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\jfr.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\nashorn.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\charsets.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\sunmscapi.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\sunpkcs11.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\access-bridge-64.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\sunjce_provider.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\jaccess.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\ext\sunec.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\jsse.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\jce.jar
+  [-] C:\Program Files\Java\jre1.8.0_66\lib\resources.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:170)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:126)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:10.259
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Test]]
+  Fire.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    class Fire
+      Fire()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Drive.java (not open)
+  ExampleCommand.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team5587.robot.Robot
+    class ExampleCommand
+      ExampleCommand()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:10.279
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:10.369
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:10.369
+!MESSAGE Project: P/Test
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:19.159
+!MESSAGE Class: Load Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:31.229
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Test]]
+  Fire.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    class Fire
+      Fire()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Drive.java (not open)
+  ExampleCommand.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team5587.robot.Robot
+    class ExampleCommand
+      ExampleCommand()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()
+  Load.java (not open)]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:31.229
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:31.319
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:31.319
+!MESSAGE Project: P/Test
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:04:38.509
+!MESSAGE Class: SpinOut Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:22:24.131
+!MESSAGE [org.usfirst.frc.team5587.robot.subsystems [in src [in Test]]
+  [Working copy] FiringMechanism.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import edu.wpi.first.wpilibj.RobotDrive
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class FiringMechanism
+      double INTAKE_POWER
+      double LAUNCH_POWER
+      RobotDrive wheels
+      void initDefaultCommand()
+  DriveTrain.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import edu.wpi.first.wpilibj.RobotDrive
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class DriveTrain
+      RobotDrive train
+      void initDefaultCommand()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:22:24.131
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:22:24.191
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:22:24.191
+!MESSAGE Project: P/Test
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:22:31.971
+!MESSAGE Class: FiringArm Package: org.usfirst.frc.team5587.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:38:12.702
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Test]]
+  Fire.java (not open)
+  Drive.java (not open)
+  Load.java (not open)
+  SpinOut.java (not open)
+  ExampleCommand.java
+    package org.usfirst.frc.team5587.robot.commands
+    import edu.wpi.first.wpilibj.command.Command
+    import org.usfirst.frc.team5587.robot.Robot
+    class ExampleCommand
+      ExampleCommand()
+      void initialize()
+      void execute()
+      boolean isFinished()
+      void end()
+      void interrupted()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:38:12.702
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:38:12.752
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:38:12.762
+!MESSAGE Project: P/Test
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-01-27 21:38:20.302
+!MESSAGE Class: ArcadeDrive Package: org.usfirst.frc.team5587.robot.commands

@@ -7,9 +7,12 @@ import edu.wpi.first.wpilibj.command.Command;
  */
 public class Fire extends Command {
 
+	private static final int LAUNCH_ANGLE = 45;
+	
     public Fire() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
+    	//Tell the command that it requires the Robo.java instance of FiringArm
     }
 
     // Called just before this Command runs the first time
@@ -17,10 +20,16 @@ public class Fire extends Command {
     }
 
     // Called repeatedly when this Command is scheduled to run
+    /*
+     * Set the firing arm's angle to LAUNCH_ANGLE
+     */
     protected void execute() {
     }
 
-    // Make this return true when this Command no longer needs to run execute()
+    // Make this return true when this Command no longer needs to run execute(
+    /*
+     * Modify the command so that it returns true only when the firing arm has reached the launch angle
+     */
     protected boolean isFinished() {
         return false;
     }

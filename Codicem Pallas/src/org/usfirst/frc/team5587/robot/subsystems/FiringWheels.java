@@ -14,7 +14,7 @@ public class FiringWheels extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	private RobotDrive launchWheels;
-	public static final double LAUNCH_POWER = 1.0, //The power necessary to launch a ball at the desired speed
+	private static final double LAUNCH_POWER = 1.0, //The power necessary to launch a ball at the desired speed
 							   INTAKE_POWER = .25; //The power necessary to bring a ball into the mechanism
 	
 	public FiringWheels()
@@ -23,9 +23,12 @@ public class FiringWheels extends Subsystem {
 		launchWheels.setInvertedMotor(RobotDrive.MotorType.kFrontLeft, true);
 	}
 	
-	public void spin( double pwr )
+	public void spin( boolean d )
 	{
-		launchWheels.drive( pwr, 0 );
+		if( d )
+			launchWheels.drive( LAUNCH_POWER, 0 );
+		else
+			launchWheels.drive( INTAKE_POWER, 0 );
 	}
 
     public void initDefaultCommand() {

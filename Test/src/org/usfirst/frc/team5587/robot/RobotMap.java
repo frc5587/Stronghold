@@ -23,14 +23,15 @@ public class RobotMap {
 	//Shooter
 	public static int LEFT_SHOOTER = 4;
 	public static int RIGHT_SHOOTER= 5;
-	public static int AIM_MOTOR = 6;
+	public static int FIRING_SERVO = 6;
 	
     public static int DRIVER = 1;
     public static int CODRIVER_PORT = 2;
     
     //Buttons
     public static int SPIN_IN = 0;
-    public static int SHOOT = 1;
+    public static int SPIN_OUT = 1;
+    public static int FIRE = 2;
     
     //Axes
     public static int THROTTLE_AXIS = 4; //For adjusting aim

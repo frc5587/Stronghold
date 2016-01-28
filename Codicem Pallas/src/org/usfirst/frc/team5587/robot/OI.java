@@ -3,8 +3,10 @@ package org.usfirst.frc.team5587.robot;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
+
+import org.usfirst.frc.team5587.classes.DependentButton;
 import org.usfirst.frc.team5587.robot.commands.firing.Fire;
-import org.usfirst.frc.team5587.robot.commands.firing.TakeIn;
+import org.usfirst.frc.team5587.robot.commands.firing.Spin;
 
 /**
  * This class is the glue that binds the controls on the physical operator
@@ -18,7 +20,8 @@ public class OI {
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
     Joystick driver, codriver;
-	Button sweepIn, fire, up, down;
+	Button sweepIn, prime, up, down;
+	DependentButton fire;
     
 	public OI()
 	{
@@ -28,13 +31,16 @@ public class OI {
 	
     	//Buttons
     	sweepIn = new JoystickButton( codriver, RobotMap.SWEEP_IN );
-    	fire = new JoystickButton( codriver, RobotMap.FIRE );
+    	prime = new JoystickButton( codriver, RobotMap.PRIME );
+    	fire = new DependentButton( codriver, RobotMap.FIRE );
     	up = new JoystickButton( codriver, RobotMap.UP );
     	down = new JoystickButton( codriver, RobotMap.DOWN );
     
     	//Buttons and Commands
-    	sweepIn.whileHeld( new TakeIn() );
-    	fire.whenPressed( new Fire() );
+    	sweepIn.whileHeld( new Spin( false ) ); //While held the launch wheels will spin inwards
+    	prime.whileHeld( new Spin( true ) ); //While held the launch wheels will spin outwards
+    	fire.whenPressed( new Fire(), prime ); //If pressed while prime is also pressed, will fire the ball
+    	
 	}
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
