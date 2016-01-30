@@ -25,6 +25,7 @@ public class Robot extends IterativeRobot {
 	
 	public static OI oi;
 	public static Subsystem exampleSubsystem;
+	
 	//Here create instances of each subsystem, all of which are public, static, and final
 
     Command autonomousCommand;
