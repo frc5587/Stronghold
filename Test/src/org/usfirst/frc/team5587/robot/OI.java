@@ -29,10 +29,12 @@ public class OI {
 	 * 4. Set spinOut to run the SpinOut command as long as it is held
 	 * 5. Set fire to run the Fire command when it is pressed
 	 */
-	
-    
-    
-    
+	public OI(){
+		driver = new Joystick(RobotMap.DRIVER);
+		spinOut = new JoystickButton(driver, RobotMap.SPIN_OUT);
+		spinIn = new JoystickButton(driver, RobotMap.SPIN_IN);
+		fire = new JoystickButton(driver, RobotMap.FIRE);
+	}
     
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
