@@ -1,0 +1,14 @@
+
+/**
+ * nope
+ * 
+ * @author Daggem
+ * @version 30-01-16
+ */
+public class Echo
+{
+    public static void main (String[] args)
+    {   
+        
+    }
+}
