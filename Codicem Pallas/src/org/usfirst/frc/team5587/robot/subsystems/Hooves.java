@@ -3,7 +3,7 @@ package org.usfirst.frc.team5587.robot.subsystems;
 import org.usfirst.frc.team5587.robot.RobotMap;
 
 import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.RobotDrive;
+import org.usfirst.frc.team5587.classes.RobotDrive;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
 /**
