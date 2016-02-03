@@ -21,9 +21,9 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 public class Robot extends IterativeRobot {
 
 	public static OI oi;
-	public static final Hooves hooves = new Hooves();
-	public static final FiringWheels firingWheels = new FiringWheels();
-	public static final BoulderLoader loader = new BoulderLoader();
+	public static Hooves hooves;
+	public static FiringWheels firingWheels;
+	public static BoulderLoader loader;
 
 	CommandGroup teleOp;
     CommandGroup autonomousCommand;
@@ -34,6 +34,9 @@ public class Robot extends IterativeRobot {
      * used for any initialization code.
      */
     public void robotInit() {
+    	hooves = new Hooves();
+    	firingWheels = new FiringWheels();
+    	loader = new BoulderLoader();
 		oi = new OI();
 		teleOp = new TeleOpDrive( oi.driver );
         chooser = new SendableChooser();

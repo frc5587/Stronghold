@@ -20,7 +20,7 @@ public class FiringWheels extends Subsystem {
 	public FiringWheels()
 	{
 		launchWheels = new RobotDrive( RobotMap.LEFT_SHOOTER_WHEEL, RobotMap.RIGHT_SHOOTER_WHEEL );
-		launchWheels.setInvertedMotor(RobotDrive.MotorType.kFrontLeft, true);
+		launchWheels.setInvertedMotor(RobotDrive.MotorType.kRearLeft, true);
 	}
 	
 	public void spin( boolean d )
