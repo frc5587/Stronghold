@@ -5,11 +5,13 @@ import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
-import org.usfirst.frc.team5587.robot.commands.modes.*;
-import org.usfirst.frc.team5587.robot.subsystems.*;
-
+import edu.wpi.first.wpilibj.networktables.NetworkTable;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import edu.wpi.first.wpilibj.CameraServer;
+
+import org.usfirst.frc.team5587.robot.commands.modes.*;
+import org.usfirst.frc.team5587.robot.subsystems.*;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -19,12 +21,14 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  * directory.
  */
 public class Robot extends IterativeRobot {
-
+	
+	public static NetworkTable table;
 	public static OI oi;
-	public static Hooves hooves;
-	public static FiringWheels firingWheels;
-	public static BoulderLoader loader;
+	public static final Hooves hooves = new Hooves();
+	public static final FiringWheels firingWheels = new FiringWheels();
+	public static final BoulderLoader loader = new BoulderLoader();
 
+	CameraServer camera;
 	CommandGroup teleOp;
     CommandGroup autonomousCommand;
     SendableChooser chooser;
@@ -34,15 +38,19 @@ public class Robot extends IterativeRobot {
      * used for any initialization code.
      */
     public void robotInit() {
-    	hooves = new Hooves();
-    	firingWheels = new FiringWheels();
-    	loader = new BoulderLoader();
-		oi = new OI();
+        oi = new OI();
 		teleOp = new TeleOpDrive( oi.driver );
         chooser = new SendableChooser();
         chooser.addDefault("Default Auto", new BasicAuto());
 //        chooser.addObject("My Auto", new MyAutoCommand());
         SmartDashboard.putData("Auto mode", chooser);
+        
+        camera = CameraServer.getInstance();
+        camera.setQuality(50);
+        camera.startAutomaticCapture("cam0");
+        
+        table = NetworkTable.getTable("GRIP/myContoursReport");
+		
     }
 	
 	/**
@@ -90,6 +98,12 @@ public class Robot extends IterativeRobot {
      */
     public void autonomousPeriodic() {
         Scheduler.getInstance().run();
+        double [] defaultValue = new double [0];
+        SmartDashboard.putString("DB/String 0", "" + table.getNumberArray("xCenter", defaultValue));
+        SmartDashboard.putString("DB/String 1", "" + table.getNumberArray("yCenter", defaultValue));
+        SmartDashboard.putString("DB/String 2", "" + table.getNumberArray("width", defaultValue));
+        SmartDashboard.putString("DB/String 3", "" + table.getNumberArray("area", defaultValue));
+        SmartDashboard.putString("DB/String 4", "" + table.getNumberArray("height", defaultValue));
     }
 
     public void teleopInit() {

@@ -1,7 +1,0 @@
-package org.usfirst.frc.team5587.classes;
-
-import edu.wpi.first.wpilibj.buttons.JoystickButton;
-
-public class DependentButton extends JoystickButton {
-
-}
