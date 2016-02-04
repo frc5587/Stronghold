@@ -20,4 +20,8 @@
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Servo"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.ArcadeDrive"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DriverStation"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotState"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.HLUsageReporting"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Timer"/>
 </qualifiedTypeNameHistroy>
