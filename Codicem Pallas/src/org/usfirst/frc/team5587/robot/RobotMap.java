@@ -29,8 +29,8 @@ public class RobotMap
 	public static int ENCODER_B = 9;
 	
 	//Joysticks
-	public static int DRIVER = 1;
-	public static int CODRIVER = 2;
+	public static int DRIVER = 0;
+	public static int CODRIVER = 1;
 	
 	//Buttons
 	public static int SWEEP_IN = 0; //Spins the wheels inward (slowly) to collect a boulder
