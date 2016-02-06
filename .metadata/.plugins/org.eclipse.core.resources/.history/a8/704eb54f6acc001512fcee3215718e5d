@@ -54,11 +54,6 @@ public class Hooves extends Subsystem
 		trotter.arcadeDrive( xValue * SCALE_FACTOR, yValue, false);
 	}
 	
-	public void stop()
-	{
-		this.trot(0, 0);
-	}
-	
     public void initDefaultCommand()
     {
         // Set the default command for a subsystem here.

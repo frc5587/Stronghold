@@ -11,7 +11,6 @@
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.Trot"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotDrive.MotorType"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.RobotMap"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.Robot"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.FiringWheels"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.firing.Fire"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.command.Command"/>
@@ -21,4 +20,7 @@
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.ArcadeDrive"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.networktables.NetworkTable"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.vision.USBCamera"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.classes.CameraServer"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.Robot"/>
 </qualifiedTypeNameHistroy>

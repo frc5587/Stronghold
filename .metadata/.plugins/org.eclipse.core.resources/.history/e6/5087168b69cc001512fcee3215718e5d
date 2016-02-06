@@ -31,11 +31,6 @@ public class FiringWheels extends Subsystem
 		else
 			launchWheels.drive( INTAKE_POWER, 0 );
 	}
-	
-	public void stop()
-	{
-		launchWheels.drive( 0, 0);
-	}
 
     public void initDefaultCommand()
     {
