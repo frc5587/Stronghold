@@ -8,7 +8,6 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.networktables.NetworkTable;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.vision.USBCamera;
 
 import org.usfirst.frc.team5587.classes.CameraServer;
 import org.usfirst.frc.team5587.robot.commands.modes.*;

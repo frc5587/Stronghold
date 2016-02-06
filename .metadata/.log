@@ -5747,3 +5747,35 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
+!SESSION 2016-02-06 09:43:22.595 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-06 09:44:21.913
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-06 09:44:21.970
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-06 09:44:21.974
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-06 09:44:21.976
+!MESSAGE Installedjava
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-06 09:44:39.477
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Christino'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-06 09:44:52.626
+!MESSAGE [edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@7f65639e, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@673fdc28, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@4cf1ec2, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@16eb01d4, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@4246f904, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@5b01b3f8, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@27c49f54, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@69efdfd9, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@1c149539, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@4a5c6b30, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@49616310, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@5ee76cf2, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@6662974a, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@4fce655d, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@df5f657, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@68908be7, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@1aba8978, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@2662e3ff, edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleJavaProject@487ee2a]
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-06 09:44:52.646
+!MESSAGE [edu.wpi.first.wpilib.plugins.core.wizards.Tag@682482ee, edu.wpi.first.wpilib.plugins.core.wizards.Tag@261b27db, edu.wpi.first.wpilib.plugins.core.wizards.Tag@175745fc, edu.wpi.first.wpilib.plugins.core.wizards.Tag@2c1a0f82, edu.wpi.first.wpilib.plugins.core.wizards.Tag@60e5db1d, edu.wpi.first.wpilib.plugins.core.wizards.Tag@1f3f0d25, edu.wpi.first.wpilib.plugins.core.wizards.Tag@32eac39b, edu.wpi.first.wpilib.plugins.core.wizards.Tag@4ef0bc5b, edu.wpi.first.wpilib.plugins.core.wizards.Tag@83bbab, edu.wpi.first.wpilib.plugins.core.wizards.Tag@67b2c8bb, edu.wpi.first.wpilib.plugins.core.wizards.Tag@32029cd, edu.wpi.first.wpilib.plugins.core.wizards.Tag@48f95f96, edu.wpi.first.wpilib.plugins.core.wizards.Tag@55bafbc1, edu.wpi.first.wpilib.plugins.core.wizards.Tag@24bc06dd, edu.wpi.first.wpilib.plugins.core.wizards.Tag@26d02dc6]

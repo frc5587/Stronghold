@@ -10,19 +10,12 @@ package org.usfirst.frc.team5587.classes;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.concurrent.atomic.AtomicBoolean;
-
 import com.ni.vision.NIVision;
 import com.ni.vision.NIVision.Image;
 import com.ni.vision.NIVision.RawData;
@@ -43,7 +36,6 @@ public class CameraServer
 	private static final int kSize320x240 = 1;
 	private static final int kSize160x120 = 2;
 	private static final int kHardwareCompression = -1;
-	private static final String kDefaultCameraName = "cam1";
 	private static final int kMaxImageSize = 200000;
 	private static CameraServer server;
 
@@ -424,6 +416,7 @@ public class CameraServer
 						}
 					}
 				}
+				socket.close();
 			}
 			catch (IOException ex)
 			{
