@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.127+C:\Users\Daggem\Documents\Evil genius stuff\Robot\Titan\Team-5587-Stronghold\.metadata\.plugins\org.eclipse.jdt.core
 1043234837.index
 3278350718.index
@@ -22,3 +23,11 @@ INDEX VERSION 1.127+C:\Users\Daggem\Documents\Evil genius stuff\Robot\Titan\Team
 1153502014.index
 907135648.index
 2281796200.index
+=======
+INDEX VERSION 1.127+C:\Users\Christino\Documents\Team Code\Team-5587-Stronghold\.metadata\.plugins\org.eclipse.jdt.core
+1657330681.index
+1297126992.index
+2371210561.index
+146030033.index
+1153502014.index
+>>>>>>> 769faa190e06f49b113731a03b34e73d6d5b3289
