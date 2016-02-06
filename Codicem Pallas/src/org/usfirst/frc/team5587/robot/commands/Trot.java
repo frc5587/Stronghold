@@ -7,7 +7,8 @@ import edu.wpi.first.wpilibj.command.Command;
 /**
  * Drives Pallas based on input power and curve, over a given time period (needs to be tested)
  */
-public class Trot extends Command {
+public class Trot extends Command
+{
 
 	private double power, curve, targetTime, elapsedTime;
 	private long startTime, endTime;
@@ -17,7 +18,8 @@ public class Trot extends Command {
 	 * @param c The curve of the motion
 	 * @param t The time (in seconds) to drive
 	 */
-    public Trot( double p, double c, double t ) {
+    public Trot( double p, double c, double t )
+    {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
     	requires( Robot.hooves );
@@ -26,17 +28,20 @@ public class Trot extends Command {
     }
 
     // Called just before this Command runs the first time
-    protected void initialize() {
+    protected void initialize()
+    {
     	startTime = System.currentTimeMillis();
     }
 
     // Called repeatedly when this Command is scheduled to run
-    protected void execute() {
+    protected void execute()
+    {
     	Robot.hooves.trot( power, curve );
     }
 
     // Make this return true when this Command no longer needs to run execute()
-    protected boolean isFinished() {
+    protected boolean isFinished()
+    {
     	endTime = System.currentTimeMillis();
     	elapsedTime = (endTime - startTime)/1000.0;
     	
@@ -44,11 +49,15 @@ public class Trot extends Command {
     }
 
     // Called once after isFinished returns true
-    protected void end() {
+    protected void end()
+    {
+    	
     }
 
     // Called when another command which requires one or more of the same
     // subsystems is scheduled to run
-    protected void interrupted() {
+    protected void interrupted()
+    {
+    	
     }
 }

@@ -5,9 +5,11 @@ import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 import edu.wpi.first.wpilibj.command.Command;
 
-public class DependentButton extends JoystickButton {
+public class DependentButton extends JoystickButton 
+{
 	
-	public DependentButton(GenericHID stick, int buttonNumber ) {
+	public DependentButton(GenericHID stick, int buttonNumber ) 
+	{
 		super( stick, buttonNumber );
 		// TODO Auto-generated constructor stub
 	}

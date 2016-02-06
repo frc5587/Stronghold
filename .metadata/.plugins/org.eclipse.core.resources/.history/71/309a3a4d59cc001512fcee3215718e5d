@@ -1,0 +1,27 @@
+package org.usfirst.frc.team5587.robot.subsystems;
+
+import org.usfirst.frc.team5587.classes.CameraServer;
+
+import edu.wpi.first.wpilibj.command.Subsystem;
+
+/**
+ *
+ */
+public class Camera extends Subsystem {
+    
+    // Put methods for controlling this subsystem
+    // here. Call these from Commands.
+	private CameraServer camera;
+	
+	public Camera(){
+		camera = CameraServer.getInstance();
+		camera.setQuality(50);
+        camera.startAutomaticCapture("cam0");
+	}
+
+    public void initDefaultCommand() {
+        // Set the default command for a subsystem here.
+        //setDefaultCommand(new MySpecialCommand());
+    }
+}
+

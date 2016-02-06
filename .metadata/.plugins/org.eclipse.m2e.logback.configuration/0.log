@@ -117,3 +117,4 @@
 2016-01-31 15:04:48,328 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @15831ms
 2016-02-02 22:36:43,410 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2016-02-03 20:48:45,108 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-02-05 16:31:31,813 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.

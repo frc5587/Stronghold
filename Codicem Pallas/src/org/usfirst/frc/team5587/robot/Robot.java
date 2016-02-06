@@ -8,8 +8,9 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.networktables.NetworkTable;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.CameraServer;
+import edu.wpi.first.wpilibj.vision.USBCamera;
 
+import org.usfirst.frc.team5587.classes.CameraServer;
 import org.usfirst.frc.team5587.robot.commands.modes.*;
 import org.usfirst.frc.team5587.robot.subsystems.*;
 
@@ -20,15 +21,15 @@ import org.usfirst.frc.team5587.robot.subsystems.*;
  * creating this project, you must also update the manifest file in the resource
  * directory.
  */
-public class Robot extends IterativeRobot {
-	
+public class Robot extends IterativeRobot
+{	
 	public static NetworkTable table;
 	public static OI oi;
 	public static final Hooves hooves = new Hooves();
 	public static final FiringWheels firingWheels = new FiringWheels();
 	public static final BoulderLoader loader = new BoulderLoader();
-
-	CameraServer camera;
+	
+	CameraServer server;
 	CommandGroup teleOp;
     CommandGroup autonomousCommand;
     SendableChooser chooser;
@@ -37,7 +38,8 @@ public class Robot extends IterativeRobot {
      * This function is run when the robot is first started up and should be
      * used for any initialization code.
      */
-    public void robotInit() {
+    public void robotInit()
+    {
         oi = new OI();
 		teleOp = new TeleOpDrive( oi.driver );
         chooser = new SendableChooser();
@@ -45,12 +47,11 @@ public class Robot extends IterativeRobot {
 //        chooser.addObject("My Auto", new MyAutoCommand());
         SmartDashboard.putData("Auto mode", chooser);
         
-        camera = CameraServer.getInstance();
-        camera.setQuality(50);
-        camera.startAutomaticCapture("cam0");
+        server = CameraServer.getInstance();
+        server.setQuality(50);
+        server.startAutomaticCapture("cam0");
         
         table = NetworkTable.getTable("GRIP/myContoursReport");
-		
     }
 	
 	/**
@@ -58,11 +59,13 @@ public class Robot extends IterativeRobot {
      * You can use it to reset any subsystem information you want to clear when
 	 * the robot is disabled.
      */
-    public void disabledInit(){
+    public void disabledInit()
+    {
 
     }
 	
-	public void disabledPeriodic() {
+	public void disabledPeriodic()
+	{
 		Scheduler.getInstance().run();
 	}
 
@@ -75,7 +78,8 @@ public class Robot extends IterativeRobot {
 	 * You can add additional auto modes by adding additional commands to the chooser code above (like the commented example)
 	 * or additional comparisons to the switch structure below with additional strings & commands.
 	 */
-    public void autonomousInit() {
+    public void autonomousInit()
+    {
         autonomousCommand = (CommandGroup) chooser.getSelected();
         
 		/* String autoSelected = SmartDashboard.getString("Auto Selector", "Default");
@@ -96,17 +100,25 @@ public class Robot extends IterativeRobot {
     /**
      * This function is called periodically during autonomous
      */
-    public void autonomousPeriodic() {
+    public void autonomousPeriodic()
+    {
         Scheduler.getInstance().run();
-        double [] defaultValue = new double [0];
-        SmartDashboard.putString("DB/String 0", "" + table.getNumberArray("xCenter", defaultValue));
-        SmartDashboard.putString("DB/String 1", "" + table.getNumberArray("yCenter", defaultValue));
-        SmartDashboard.putString("DB/String 2", "" + table.getNumberArray("width", defaultValue));
-        SmartDashboard.putString("DB/String 3", "" + table.getNumberArray("area", defaultValue));
-        SmartDashboard.putString("DB/String 4", "" + table.getNumberArray("height", defaultValue));
+        String ds = "DB/String ";
+        String [] properties = {"xCenter",
+        						"yCenter",
+        						"width",
+        						"area",
+        						"height"};
+        double [] defaultValue = { 0, 0, 0, 0, 0 };
+        int i;
+        for( i = 0; i < properties.length; i++)
+        {
+        	SmartDashboard.putNumber( ds + i, table.getNumberArray( properties[ i ], defaultValue ) [ 0 ] );
+        }
     }
 
-    public void teleopInit() {
+    public void teleopInit()
+    {
 		// This makes sure that the autonomous stops running when
         // teleop starts running. If you want the autonomous to 
         // continue until interrupted by another command, remove
@@ -118,14 +130,16 @@ public class Robot extends IterativeRobot {
     /**
      * This function is called periodically during operator control
      */
-    public void teleopPeriodic() {
+    public void teleopPeriodic()
+    {
         Scheduler.getInstance().run();
     }
     
     /**
      * This function is called periodically during test mode
      */
-    public void testPeriodic() {
+    public void testPeriodic()
+    {
         LiveWindow.run();
     }
 }

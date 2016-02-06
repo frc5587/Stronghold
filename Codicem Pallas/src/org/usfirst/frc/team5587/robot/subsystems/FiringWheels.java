@@ -9,7 +9,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
  * The two wheels on the front of the launch mechanism that spin in
  * or out depending on our needs
  */
-public class FiringWheels extends Subsystem {
+public class FiringWheels extends Subsystem
+{
     
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
@@ -31,7 +32,8 @@ public class FiringWheels extends Subsystem {
 			launchWheels.drive( INTAKE_POWER, 0 );
 	}
 
-    public void initDefaultCommand() {
+    public void initDefaultCommand()
+    {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
     }

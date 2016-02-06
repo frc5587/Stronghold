@@ -5484,3 +5484,266 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 
 !ENTRY WPILib_Java_Robot_Development 1 0 2016-02-03 22:29:23.165
 !MESSAGE Targets: deploy, Mode: run
+!SESSION 2016-02-04 21:17:12.568 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-04 21:19:12.263
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wanderer'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-04 21:19:13.911
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-04 21:19:13.916
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-04 21:19:13.919
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-04 21:19:13.921
+!MESSAGE Installedjava
+!SESSION 2016-02-05 16:26:30.211 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-02-05 16:27:43.548
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Wanderer'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-05 16:27:46.758
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-05 16:27:46.758
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-05 16:27:46.758
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2016-02-05 16:27:46.758
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 16:31:25.574
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 16:31:25.579
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 16:42:14.707
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 16:42:14.711
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 16:45:45.042
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 16:45:45.053
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:14:39.139
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:14:39.141
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:16:49.048
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:16:49.081
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:28:47.008
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  Canter.java (not open)
+  Trot.java (not open)]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:28:47.010
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:28:47.077
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:28:47.081
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:28:58.421
+!MESSAGE Class: TeleOpCamera Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:29:11.205
+!MESSAGE [org.usfirst.frc.team5587.robot.commands [in src [in Codicem Pallas]]
+  Canter.java (not open)
+  Trot.java (not open)
+  TeleOpCamera.java (not open)]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:29:11.208
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:29:11.239
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:29:11.242
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:29:19.942
+!MESSAGE Class: AutoCamera Package: org.usfirst.frc.team5587.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:31:18.646
+!MESSAGE [org.usfirst.frc.team5587.robot.subsystems [in src [in Codicem Pallas]]
+  Hooves.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import org.usfirst.frc.team5587.robot.RobotMap
+    import edu.wpi.first.wpilibj.Joystick
+    import org.usfirst.frc.team5587.classes.RobotDrive
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class Hooves
+      double SCALE_FACTOR
+      RobotDrive trotter
+      Hooves()
+      void trot(double, double)
+      void canter(Joystick)
+      void initDefaultCommand()
+  AimingFixture.java (not open)
+  BoulderLoader.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import org.usfirst.frc.team5587.robot.RobotMap
+    import edu.wpi.first.wpilibj.Servo
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class BoulderLoader
+      Servo loader
+      BoulderLoader()
+      void setAngle(double)
+      double getAngle()
+      void initDefaultCommand()
+  FiringWheels.java
+    package org.usfirst.frc.team5587.robot.subsystems
+    import org.usfirst.frc.team5587.robot.RobotMap
+    import org.usfirst.frc.team5587.classes.RobotDrive
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class FiringWheels
+      RobotDrive launchWheels
+      double LAUNCH_POWER
+      double INTAKE_POWER
+      FiringWheels()
+      void spin(boolean)
+      void initDefaultCommand()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:31:18.648
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:31:18.669
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:31:18.671
+!MESSAGE Project: P/Codicem Pallas
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:31:24.120
+!MESSAGE Class: Camera Package: org.usfirst.frc.team5587.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:42:03.067
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:42:03.069
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:43:12.450
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:43:12.451
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:46:54.277
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:46:54.279
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:48:59.323
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:48:59.324
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:50:01.358
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:50:01.360
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:51:27.458
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:51:27.460
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:53:39.766
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 17:53:39.768
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 18:02:51.772
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 18:02:51.775
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 18:04:49.031
+!MESSAGE Running ant file: C:\Users\Wanderer\git\Team-5587-Stronghold\Codicem Pallas\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2016-02-05 18:04:49.042
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY org.eclipse.recommenders.rcp 4 5 2016-02-05 19:23:17.204
+!MESSAGE Failed to resolve selection in ‘=Codicem Pallas/src<org.usfirst.frc.team5587.robot{RobotMap.java’ at offset 1,706
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 4 5 2016-02-05 19:28:04.760
+!MESSAGE Failed to resolve selection in ‘=Codicem Pallas/src<org.usfirst.frc.team5587.robot.commands.firing{Fire.java’ at offset 1,184
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

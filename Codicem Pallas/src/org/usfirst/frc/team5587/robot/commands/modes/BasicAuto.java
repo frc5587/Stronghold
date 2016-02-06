@@ -8,9 +8,11 @@ import edu.wpi.first.wpilibj.command.CommandGroup;
 /**
  * Allows for a sequencing of commands for Autonomous mode (needs to be tested)
  */
-public class BasicAuto extends CommandGroup {
+public class BasicAuto extends CommandGroup
+{
     
-    public  BasicAuto() {
+    public  BasicAuto()
+    {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());

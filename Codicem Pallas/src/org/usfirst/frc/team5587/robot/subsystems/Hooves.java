@@ -9,7 +9,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 /**
  * This subsystem contains the motors in the drive train
  */
-public class Hooves extends Subsystem {
+public class Hooves extends Subsystem
+{
     
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
@@ -53,7 +54,8 @@ public class Hooves extends Subsystem {
 		trotter.arcadeDrive( xValue * SCALE_FACTOR, yValue, false);
 	}
 	
-    public void initDefaultCommand() {
+    public void initDefaultCommand()
+    {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
     }

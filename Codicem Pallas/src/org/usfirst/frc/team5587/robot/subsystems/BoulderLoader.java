@@ -8,7 +8,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 /**
  *
  */
-public class BoulderLoader extends Subsystem {
+public class BoulderLoader extends Subsystem
+{
     
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
@@ -29,7 +30,8 @@ public class BoulderLoader extends Subsystem {
 		return loader.getAngle();
 	}
 	
-    public void initDefaultCommand() {
+    public void initDefaultCommand()
+    {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
     }
