@@ -36,8 +36,7 @@ public class RobotMap
 	public static int SWEEP_IN = 0; //Spins the wheels inward (slowly) to collect a boulder
 	public static int FIRE = 1; //Begins sequence of actually shooting a boulder
 	public static int PRIME = 2;
-	public static int UP = 5; //Moves aiming mechanism up
-	public static int DOWN = 6; //Moves aiming mechanism down
+	public static int AIM = 3;
 	
     // If you are using multiple modules, make sure to define both the port
     // number and the module. For example you with a rangefinder:

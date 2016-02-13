@@ -21,7 +21,7 @@ public class OI
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
     Joystick driver, codriver;
-	Button sweepIn, prime, up, down;
+	Button sweepIn, prime, aim;
 	DependentButton fire;
     
 	public OI()
@@ -34,8 +34,7 @@ public class OI
     	sweepIn = new JoystickButton( codriver, RobotMap.SWEEP_IN );
     	prime = new JoystickButton( codriver, RobotMap.PRIME );
     	fire = new DependentButton( codriver, RobotMap.FIRE );
-    	up = new JoystickButton( codriver, RobotMap.UP );
-    	down = new JoystickButton( codriver, RobotMap.DOWN );
+    	aim = new JoystickButton( driver, RobotMap.AIM );
     
     	//Buttons and Commands
     	sweepIn.whileHeld( new Spin( false ) ); //While held the launch wheels will spin inwards

@@ -1,48 +1,28 @@
-package org.usfirst.frc.team5587.robot.commands;
-
-import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.subsystems.Hooves;
-import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
+package org.usfirst.frc.team5587.robot.commands.aimbot;
 
 import edu.wpi.first.wpilibj.command.Command;
-import edu.wpi.first.wpilibj.networktables.NetworkTable;
 
 /**
  *
  */
-public class AimBot extends Command {
-	
-	private Hooves hooves;
-	private StrongArm arm;
-	private NetworkTable table;
-	private int index;
-	private boolean finished;
-	
-    public AimBot() {
+public class IncrementalAim extends Command {
+
+    public IncrementalAim() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
-    	requires( Robot.arm );
-    	requires( Robot.hooves );
-    	hooves = Robot.hooves;
-    	arm = Robot.arm;
-    	table = Robot.table;
-    	finished = false;
     }
 
     // Called just before this Command runs the first time
     protected void initialize() {
-    	
     }
 
     // Called repeatedly when this Command is scheduled to run
-    protected void execute() 
-    {
-    	
+    protected void execute() {
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        return finished;
+        return false;
     }
 
     // Called once after isFinished returns true
