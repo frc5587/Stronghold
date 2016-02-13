@@ -10,11 +10,15 @@ import edu.wpi.first.wpilibj.networktables.NetworkTable;
  */
 public class AimBot extends CommandGroup {
     
-	private boolean finished = false;
-	private NetworkTable table;
-	private int index;
+	public static final double UPPER_LIMIT = 100,
+							   LOWER_LIMIT = 300,
+							   LEFT_LIMIT = 100,
+							   RIGHT_LIMIT = 300;
+	private boolean finished;
+	protected static NetworkTable table;
+	static int index;
 	
-    public  AimBot() {
+    public AimBot() {
     	
         // Add Commands here:
         // e.g. addSequential(new Command1());
@@ -23,14 +27,14 @@ public class AimBot extends CommandGroup {
     	requires( Robot.arm );
     	requires( Robot.hooves );
     	table = Robot.table;
-    	
+    	finished = false;
     	index = findIndex();
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());
         //      addSequential(new Command2());
         // Command1 and Command2 will run in parallel.
-
+    	
         // A command group will require all of the subsystems that each member
         // would require.
         // e.g. if Command1 requires chassis, and Command2 requires arm,
@@ -61,6 +65,26 @@ public class AimBot extends CommandGroup {
     		isFinished();
     		return -1;
     	}
+    }
+    
+    public static double getX()
+    {
+    	return table.getNumberArray( "xCenter", new double[0] )[index];
+    }
+    
+    public static double getY()
+    {
+    	return table.getNumberArray( "yCenter", new double[0] )[index];
+    }
+    
+    public static boolean withinX()
+    {
+    	return ( getX() <= RIGHT_LIMIT && getX() >= LEFT_LIMIT );
+    }
+    
+    public static boolean withinY()
+    {
+    	return ( getY() <= LOWER_LIMIT && getY() >= UPPER_LIMIT );
     }
     
     protected boolean isFinished()

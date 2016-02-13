@@ -12,7 +12,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class StrongArm extends Subsystem
 {
 	private static final double AIM_POWER = 1;
-	private static final int SCALE_FACTOR = 100;
+	private static final int SCALE_FACTOR = 100,
+							 MARGIN = 10;
 	private static final boolean REVERSE = false;
 	
 	private int target = 0; //A value that will be adjusted at need
@@ -53,11 +54,26 @@ public class StrongArm extends Subsystem
 	{
 		return getPos() - target;
 	}
+	
+	public boolean atTarget()
+	{
+		return (getPos() <= (target + MARGIN) && getPos() >= (target - MARGIN));
+	}
 
 	public int scale ( double in )
 	{
 		double scaled = (in + 1) / 2;
 		return (int)( scaled * SCALE_FACTOR );	
+	}
+	
+	public void add( int t )
+	{
+		setTarget( getPos() + t );
+	}
+	
+	public void subtract( int t )
+	{
+		setTarget( getPos() - t );
 	}
 	
     public void initDefaultCommand()
