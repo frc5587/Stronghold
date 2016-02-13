@@ -51,6 +51,11 @@ public class StrongArm extends Subsystem
 	{
 		return getPos() - target;
 	}
+
+	public int scale (double in)
+	{
+		return (int)in;	
+	}
 	
     public void initDefaultCommand()
     {
