@@ -1,6 +1,8 @@
 package org.usfirst.frc.team5587.robot.commands.firing;
 
 import org.usfirst.frc.team5587.robot.Robot;
+import org.usfirst.frc.team5587.robot.subsystems.FiringWheels;
+
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
@@ -8,7 +10,7 @@ import edu.wpi.first.wpilibj.command.Command;
  */
 public class Spin extends Command
 {
-
+	private FiringWheels wheels;
 	private boolean direction;
 	
     public Spin( boolean d )
@@ -17,6 +19,7 @@ public class Spin extends Command
         // eg. requires(chassis);
     	requires( Robot.firingWheels );
     	direction = d;
+    	wheels = Robot.firingWheels;
     }
 
     // Called just before this Command runs the first time
@@ -28,7 +31,7 @@ public class Spin extends Command
     // Called repeatedly when this Command is scheduled to run
     protected void execute()
     {
-    	Robot.firingWheels.spin( direction );
+    	wheels.spin( direction );
     }
 
     // Make this return true when this Command no longer needs to run execute()
@@ -40,7 +43,7 @@ public class Spin extends Command
     // Called once after isFinished returns true
     protected void end()
     {
-    	Robot.firingWheels.stop();
+    	wheels.stop();
     }
 
     // Called when another command which requires one or more of the same
