@@ -12,6 +12,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class StrongArm extends Subsystem
 {
 	private static final double AIM_POWER = 1;
+	private static final int SCALE_FACTOR = 100;
+	private static final boolean REVERSE = false;
 	
 	private int target = 0; //A value that will be adjusted at need
     private Jaguar motor;
@@ -21,7 +23,7 @@ public class StrongArm extends Subsystem
 	public StrongArm()
 	{
 		motor = new Jaguar( RobotMap.AIMING_MOTOR );
-		encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
+		encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B, REVERSE );
 	}
 
 	public void move( boolean d )
@@ -29,7 +31,7 @@ public class StrongArm extends Subsystem
 		if( d )
 			motor.set( AIM_POWER );
 		else
-			motor.set( -AIM_POWER);
+			motor.set( -AIM_POWER );
 	}
 	
 	public void stop()
@@ -52,9 +54,10 @@ public class StrongArm extends Subsystem
 		return getPos() - target;
 	}
 
-	public int scale (double in)
+	public int scale ( double in )
 	{
-		return (int)in;	
+		double scaled = (in + 1) / 2;
+		return (int)( scaled * SCALE_FACTOR );	
 	}
 	
     public void initDefaultCommand()

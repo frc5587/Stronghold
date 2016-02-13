@@ -20,7 +20,6 @@ public class ThrottleAim extends Command
     	requires(Robot.arm);
     	arm = Robot.arm;
     	stick = j;
-    	
     }
 
     // Called just before this Command runs the first time

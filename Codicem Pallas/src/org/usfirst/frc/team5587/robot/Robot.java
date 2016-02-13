@@ -103,18 +103,6 @@ public class Robot extends IterativeRobot
     public void autonomousPeriodic()
     {
         Scheduler.getInstance().run();
-        String ds = "DB/String ";
-        String [] properties = {"xCenter",
-        						"yCenter",
-        						"width",
-        						"area",
-        						"height"};
-        double [] defaultValue = { 0, 0, 0, 0, 0 };
-        int i;
-        for( i = 0; i < properties.length; i++)
-        {
-        	SmartDashboard.putNumber( ds + i, table.getNumberArray( properties[ i ], defaultValue ) [ 0 ] );
-        }
     }
 
     public void teleopInit()
@@ -133,6 +121,18 @@ public class Robot extends IterativeRobot
     public void teleopPeriodic()
     {
         Scheduler.getInstance().run();
+        String ds = "DB/String ";
+        String [] properties = {"xCenter",
+        						"yCenter",
+        						"width",
+        						"area",
+        						"height"};
+        double [] defaultValue = { 0, 0, 0, 0, 0 };
+        int i;
+        for( i = 0; i < properties.length; i++)
+        {
+        	SmartDashboard.putNumber( ds + i, table.getNumberArray( properties[ i ], defaultValue ) [ 0 ] );
+        }
     }
     
     /**
