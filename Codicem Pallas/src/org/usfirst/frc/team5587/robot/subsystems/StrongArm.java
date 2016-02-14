@@ -3,7 +3,7 @@ package org.usfirst.frc.team5587.robot.subsystems;
 import org.usfirst.frc.team5587.robot.RobotMap;
 
 import edu.wpi.first.wpilibj.Encoder;
-import edu.wpi.first.wpilibj.Jaguar;
+import edu.wpi.first.wpilibj.VictorSP;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
 /**
@@ -17,13 +17,13 @@ public class StrongArm extends Subsystem
 	private static final boolean REVERSE = false;
 	
 	private int target = 0; //A value that will be adjusted at need
-    private Jaguar motor;
+    private VictorSP motor;
     private Encoder encoder;
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	public StrongArm()
 	{
-		motor = new Jaguar( RobotMap.AIMING_MOTOR );
+		motor = new VictorSP( RobotMap.AIMING_MOTOR );
 		encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B, REVERSE );
 	}
 

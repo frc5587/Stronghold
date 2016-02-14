@@ -25,8 +25,8 @@ public class RobotMap
 	
     //Aiming mechanism
 	public static int AIMING_MOTOR = 7;
-	public static int ENCODER_A = 1;
-	public static int ENCODER_B = 0;
+	public static int ENCODER_A = 0;
+	public static int ENCODER_B = 1;
 	
 	//Joysticks
 	public static int DRIVER = 0;

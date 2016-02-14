@@ -5,6 +5,8 @@ import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
 import org.usfirst.frc.team5587.classes.DependentButton;
+import org.usfirst.frc.team5587.robot.commands.firing.Fire;
+import org.usfirst.frc.team5587.robot.commands.firing.Hold;
 import org.usfirst.frc.team5587.robot.commands.firing.Load;
 import org.usfirst.frc.team5587.robot.commands.firing.Spin;
 
@@ -21,7 +23,7 @@ public class OI
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
     public Joystick driver, codriver;
-	Button sweepIn, aim, fire;
+	Button sweepIn, prime, aim,fire;
     
 	public OI()
 	{
@@ -31,12 +33,15 @@ public class OI
 	
     	//Buttons
     	sweepIn = new JoystickButton( driver, RobotMap.SWEEP_IN );
+    	prime = new JoystickButton( driver, RobotMap.PRIME );
     	fire = new JoystickButton( driver, RobotMap.FIRE );
     	aim = new JoystickButton( driver, RobotMap.AIM );
     
     	//Buttons and Commands
     	sweepIn.whileHeld( new Spin( false ) ); //While held the launch wheels will spin inwards
-    	fire.whenPressed( new Load() ); //If pressed while prime is also pressed, will fire the ball
+    	prime.whileHeld( new Spin( true ) ); //While held the launch wheels will spin outwards
+    	prime.whenReleased( new Hold() );
+    	fire.whileHeld( new Load() ); //If pressed while prime is also pressed, will fire the ball
     	
 	}
     // There are a few additional built in buttons you can use. Additionally,
