@@ -1,7 +1,7 @@
 package org.usfirst.frc.team5587.robot.commands.firing;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.subsystems.FiringWheels;
+import org.usfirst.frc.team5587.robot.subsystems.SpinningWheelsOfDeath;
 
 import edu.wpi.first.wpilibj.command.Command;
 
@@ -10,7 +10,9 @@ import edu.wpi.first.wpilibj.command.Command;
  */
 public class Spin extends Command
 {
-	private FiringWheels wheels;
+	
+	private SpinningWheelsOfDeath wheels;
+	
 	private boolean direction;
 	
     public Spin( boolean d )

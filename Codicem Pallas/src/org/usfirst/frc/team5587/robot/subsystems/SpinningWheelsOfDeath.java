@@ -9,16 +9,16 @@ import edu.wpi.first.wpilibj.command.Subsystem;
  * The two wheels on the front of the launch mechanism that spin in
  * or out depending on our needs
  */
-public class FiringWheels extends Subsystem
+public class SpinningWheelsOfDeath extends Subsystem
 {
     
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	private RobotDrive launchWheels;
 	private static final double LAUNCH_POWER = 1.0, //The power necessary to launch a ball at the desired speed
-							   INTAKE_POWER = .25; //The power necessary to bring a ball into the mechanism
+							   INTAKE_POWER = .75; //The power necessary to bring a ball into the mechanism
 	
-	public FiringWheels()
+	public SpinningWheelsOfDeath()
 	{
 		launchWheels = new RobotDrive( RobotMap.LEFT_SHOOTER_WHEEL, RobotMap.RIGHT_SHOOTER_WHEEL );
 		launchWheels.setInvertedMotor(RobotDrive.MotorType.kRearLeft, true);

@@ -25,7 +25,7 @@ public class Robot extends IterativeRobot
 	public static NetworkTable table;
 	public static OI oi;
 	public static final Hooves hooves = new Hooves();
-	public static final FiringWheels firingWheels = new FiringWheels();
+	public static final SpinningWheelsOfDeath firingWheels = new SpinningWheelsOfDeath();
 	public static final BoulderLoader loader = new BoulderLoader();
 	public static final StrongArm arm = new StrongArm();
 	
