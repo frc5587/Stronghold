@@ -31,9 +31,9 @@ public class OI
     	codriver = new Joystick( RobotMap.CODRIVER );
 	
     	//Buttons
-    	sweepIn = new JoystickButton( codriver, RobotMap.SWEEP_IN );
-    	prime = new JoystickButton( codriver, RobotMap.PRIME );
-    	fire = new DependentButton( codriver, RobotMap.FIRE );
+    	sweepIn = new JoystickButton( driver, RobotMap.SWEEP_IN );
+    	prime = new JoystickButton( driver, RobotMap.PRIME );
+    	fire = new DependentButton( driver, RobotMap.FIRE );
     	aim = new JoystickButton( driver, RobotMap.AIM );
     
     	//Buttons and Commands
