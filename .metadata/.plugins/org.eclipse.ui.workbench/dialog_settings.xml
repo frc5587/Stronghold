@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="201" key="DIALOG_X_ORIGIN"/>
-		<item value="72" key="DIALOG_Y_ORIGIN"/>
-	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="526" key="dialogHeight"/>
-		<item value="960" key="dialogWidth"/>
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -14,39 +10,6 @@
 		<list key="orderedProviders">
 		</list>
 		<list key="textArray">
-		</list>
-	</section>
-	<section name="NewWizardAction">
-<<<<<<< a2dabd31a67beb12713482f792499a43dbdb20c9
-		<item value="edu.wpi.first.wpilib.plugins.java.wizards.newproject.NewJavaWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-=======
-		<item value="edu.wpi.first.wpilib.plugins.java.wizards.examples.ExampleWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
->>>>>>> Git is getting on my nerves.
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="edu.wpi.first.wpilib.plugins.java"/>
-		</list>
-	</section>
-	<section name="InstallationDialogSettings">
-		<item value="934" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="982" key="DIALOG_HEIGHT"/>
-		<item value="-29" key="DIALOG_X_ORIGIN"/>
-		<item value="-300" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
-		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.eclipse.jst.ejb.ui"/>
-			<item value="org.eclipse.equinox.p2.category"/>
-			<item value="org.eclipse.jst.j2ee.internal"/>
-		</list>
-	</section>
-	<section name="FileSystemImportWizard">
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="C:\Users\Daggem\Documents\Evil genius stuff\Nothing here\Module 14 2\6\14.07 Assignment"/>
 		</list>
 	</section>
 </section>
