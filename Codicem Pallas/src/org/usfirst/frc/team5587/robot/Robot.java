@@ -10,6 +10,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 import org.usfirst.frc.team5587.classes.CameraServer;
+import org.usfirst.frc.team5587.robot.commands.aimbot.Angler;
 import org.usfirst.frc.team5587.robot.commands.modes.*;
 import org.usfirst.frc.team5587.robot.subsystems.*;
 
@@ -121,18 +122,9 @@ public class Robot extends IterativeRobot
     public void teleopPeriodic()
     {
         Scheduler.getInstance().run();
-        String ds = "DB/String ";
-        String [] properties = {"xCenter",
-        						"yCenter",
-        						"width",
-        						"area",
-        						"height"};
-        double [] defaultValue = { 0, 0, 0, 0, 0 };
-        int i;
-        for( i = 0; i < properties.length; i++)
-        {
-        	SmartDashboard.putNumber( ds + i, table.getNumberArray( properties[ i ], defaultValue ) [ 0 ] );
-        }
+        Angler a = new Angler( table );
+        SmartDashboard.putNumber( "DB/String 1", a.calcDistance() );
+        SmartDashboard.putNumber( "DB/String 2", a.calcAngleY());
     }
     
     /**
