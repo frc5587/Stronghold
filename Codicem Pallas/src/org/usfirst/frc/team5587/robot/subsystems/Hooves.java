@@ -16,7 +16,7 @@ public class Hooves extends Subsystem
     // here. Call these from Commands.
 
 	//Provides a limitation to the maximum speed of the drive train (needs to be tested)
-	private static final double SCALE_FACTOR = 1.0;
+	private static final double SCALE_FACTOR = .5;
 	
 	private RobotDrive trotter;
 	
@@ -65,4 +65,3 @@ public class Hooves extends Subsystem
         //setDefaultCommand(new MySpecialCommand());
     }
 }
-

@@ -53,5 +53,9 @@
     ":org.eclipse.ecf.filetransfer.*:",
     ":java.net.*:"
   ],
+<<<<<<< HEAD
   "problemsZipLastDownloadTimestamp": 1455830382828
+=======
+  "problemsZipLastDownloadTimestamp": 1455472288141
+>>>>>>> 783890bb96e4960b15dee5cafe13264b26972c06
 }

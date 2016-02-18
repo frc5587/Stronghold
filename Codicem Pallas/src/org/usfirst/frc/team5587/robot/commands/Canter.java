@@ -1,6 +1,7 @@
 package org.usfirst.frc.team5587.robot.commands;
 
 import org.usfirst.frc.team5587.robot.Robot;
+import org.usfirst.frc.team5587.robot.subsystems.Hooves;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.Command;
@@ -12,12 +13,14 @@ public class Canter extends Command
 {
 	
 	private Joystick stick;
+	private Hooves hooves;
 	
     public Canter( Joystick s )
     {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
     	requires( Robot.hooves );
+    	hooves = Robot.hooves;
     	stick = s;
     }
 
@@ -30,7 +33,7 @@ public class Canter extends Command
     // Called repeatedly when this Command is scheduled to run
     protected void execute()
     {
-    	Robot.hooves.canter( stick );
+    	hooves.canter( stick );
     }
 
     // Make this return true when this Command no longer needs to run execute()

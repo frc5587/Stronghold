@@ -3,25 +3,35 @@
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.CounterBase.EncodingType"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.DriveTrain"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.JoystickButton"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.Hooves"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.command.CommandGroup"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.modes.BasicAuto"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.Trot"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotDrive.MotorType"/>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.FiringWheels"/>
+=======
+>>>>>>> 783890bb96e4960b15dee5cafe13264b26972c06
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.firing.Fire"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.classes.DependentButton"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotDrive"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Servo"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.ArcadeDrive"/>
-<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.networktables.NetworkTable"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.vision.USBCamera"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.classes.CameraServer"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.Robot"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.command.Command"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.Canter"/>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Jaguar"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Encoder"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.RobotMap"/>
+=======
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.BoulderLoader"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.FiringWheels"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.Hooves"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.RobotMap"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.networktables.NetworkTable"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.subsystems.StrongArm"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.Robot"/>
+>>>>>>> 783890bb96e4960b15dee5cafe13264b26972c06
 </qualifiedTypeNameHistroy>
