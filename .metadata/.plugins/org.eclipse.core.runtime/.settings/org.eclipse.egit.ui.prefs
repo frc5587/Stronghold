@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Not quite sure if there are any changes in this one</message>\r\n<message>Just added encoders for the aiming mechanism</message>\r\n<message>Ello</message>\r\n<message>Hello to you too</message>\r\n</messages>
-=======
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Hello, Charles.</message>\r\n<message>Just added encoders for the aiming mechanism</message>\r\n<message>Ello</message>\r\n<message>Hello to you too</message>\r\n</messages>
->>>>>>> 783890bb96e4960b15dee5cafe13264b26972c06
-eclipse.preferences.version=1

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Simple Vision&apos;" deleteContents="false" description="Delete resource &apos;Simple Vision&apos;" element1="/Simple Vision" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1454556750965"/>&#x0A;<refactoring comment="Delete resource &apos;lkj&apos;" deleteContents="false" description="Delete resource &apos;lkj&apos;" element1="/lkj" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1454771794975"/>
-=======
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Simple Vision&apos;" deleteContents="false" description="Delete resource &apos;Simple Vision&apos;" element1="/Simple Vision" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1454556750965"/>&#x0A;<refactoring comment="Delete resource &apos;Ultrasonic PID&apos;" deleteContents="false" description="Delete resource &apos;Ultrasonic PID&apos;" element1="/Ultrasonic PID" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1454769909862"/>
->>>>>>> 769faa190e06f49b113731a03b34e73d6d5b3289
-</session>
