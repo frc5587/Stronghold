@@ -13,7 +13,7 @@ public class Fire extends Command
 {
 
 	private BoulderLoader loader;
-	private static final int LOADING_ANGLE = 45;
+	private static final int LOADING_ANGLE = 135;
     public Fire()
     {
         // Use requires() here to declare subsystem dependencies
@@ -43,7 +43,7 @@ public class Fire extends Command
     // Called once after isFinished returns true
     protected void end()
     {
-    	loader.set( 0 );
+    	loader.set( 180 );
     }
 
     // Called when another command which requires one or more of the same

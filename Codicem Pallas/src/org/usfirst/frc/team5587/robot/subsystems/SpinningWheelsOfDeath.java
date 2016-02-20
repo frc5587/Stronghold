@@ -15,13 +15,12 @@ public class SpinningWheelsOfDeath extends Subsystem
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	private RobotDrive launchWheels;
-	private static final double LAUNCH_POWER = 1.0, //The power necessary to launch a ball at the desired speed
-							   INTAKE_POWER = .75; //The power necessary to bring a ball into the mechanism
+	private static final double LAUNCH_POWER = -1.0, //The power necessary to launch a ball at the desired speed
+							   INTAKE_POWER = .5; //The power necessary to bring a ball into the mechanism
 	
 	public SpinningWheelsOfDeath()
 	{
 		launchWheels = new RobotDrive( RobotMap.LEFT_SHOOTER_WHEEL, RobotMap.RIGHT_SHOOTER_WHEEL );
-		launchWheels.setInvertedMotor(RobotDrive.MotorType.kRearLeft, true);
 	}
 	
 	public void spin( boolean d )

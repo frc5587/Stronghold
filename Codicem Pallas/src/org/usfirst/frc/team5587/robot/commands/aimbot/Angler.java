@@ -12,10 +12,10 @@ public class Angler
 								TARGET_HEIGHT = 14,
 								CENTER_HEIGHT = 90,
 								IMAGE_HEIGHT = 240,
-								CAMERA_ANGLE_Y = 120,
-								CAMERA_ANGLE_X = 120;
+								Y_COEFFICIENT = (55.0/87.0),
+								X_COEFFICIENT = 120;
 								
-	private int index;
+	public int index;
 	private double distance;
 	
 	public Angler( NetworkTable t )
@@ -67,15 +67,10 @@ public class Angler
     	return ( getY() <= LOWER_LIMIT && getY() >= UPPER_LIMIT );
     }
     
-    private double toRadians( double deg )
-    {
-    	return Math.toRadians(deg);
-    }
-    
     public double calcDistance()
     {
-    	distance = ( TARGET_HEIGHT * table.getNumberArray( "height", new double [0])[ index ] )
-    				/ ( 2 * IMAGE_HEIGHT * Math.tan( toRadians( CAMERA_ANGLE_Y ) ) );
+    	distance = ( TARGET_HEIGHT * table.getNumberArray( "height", new double [0])[ index ] * Y_COEFFICIENT )
+    				/ IMAGE_HEIGHT;
     	return distance;
     }
     

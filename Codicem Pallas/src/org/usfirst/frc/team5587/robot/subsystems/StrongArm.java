@@ -11,7 +11,7 @@ import edu.wpi.first.wpilibj.command.Subsystem;
  */
 public class StrongArm extends Subsystem
 {
-	private static final double AIM_POWER = 1;
+	private static final double AIM_POWER = .1;
 	private static final int SCALE_FACTOR = 100,
 							 MARGIN = 10;
 	private static final boolean REVERSE = false;
@@ -30,9 +30,9 @@ public class StrongArm extends Subsystem
 	public void move( boolean d )
 	{
 		if( d )
-			motor.set( AIM_POWER );
-		else
 			motor.set( -AIM_POWER );
+		else
+			motor.set( AIM_POWER );
 	}
 	
 	public void stop()

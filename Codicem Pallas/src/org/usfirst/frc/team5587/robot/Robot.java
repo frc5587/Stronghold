@@ -2,6 +2,7 @@
 package org.usfirst.frc.team5587.robot;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.PowerDistributionPanel;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
@@ -26,14 +27,16 @@ public class Robot extends IterativeRobot
 	public static NetworkTable table;
 	public static OI oi;
 	public static final Hooves hooves = new Hooves();
-	public static final SpinningWheelsOfDeath firingWheels = new SpinningWheelsOfDeath();
 	public static final BoulderLoader loader = new BoulderLoader();
+	public static final SpinningWheelsOfDeath firingWheels = new SpinningWheelsOfDeath();
 	public static final StrongArm arm = new StrongArm();
 	
 	CameraServer server;
 	CommandGroup teleOp;
     CommandGroup autonomousCommand;
     SendableChooser chooser;
+    
+    private PowerDistributionPanel pdp;
 
     /**
      * This function is run when the robot is first started up and should be
@@ -53,6 +56,7 @@ public class Robot extends IterativeRobot
         server.startAutomaticCapture("cam0");
         
         table = NetworkTable.getTable("GRIP/myContoursReport");
+        pdp = new PowerDistributionPanel();
     }
 	
 	/**
@@ -123,8 +127,18 @@ public class Robot extends IterativeRobot
     {
         Scheduler.getInstance().run();
         Angler a = new Angler( table );
-        SmartDashboard.putNumber( "DB/String 1", a.calcDistance() );
-        SmartDashboard.putNumber( "DB/String 2", a.calcAngleY());
+        //SmartDashboard.putNumber( "DB/String 1", a.calcDistance() );
+        //SmartDashboard.putNumber( "DB/String 2", a.calcAngleY());
+        //SmartDashboard.putNumber( "DB/String 3", a.index );
+        SmartDashboard.putString( "DB/String 0", ""+a.index);
+        SmartDashboard.putString( "DB/String 1", "I0: " + pdp.getCurrent(0));
+        SmartDashboard.putString( "DB/String 2", "I1: " + pdp.getCurrent(1));
+        SmartDashboard.putString( "DB/String 3", "I2: " + pdp.getCurrent(2));
+        SmartDashboard.putString( "DB/String 4", "I3: " + pdp.getCurrent(3));
+        SmartDashboard.putString( "DB/String 5", "I4: " + pdp.getCurrent(4));
+        SmartDashboard.putString( "DB/String 6", "I13: " + pdp.getCurrent(13));
+        SmartDashboard.putString( "DB/String 7", "I14: " + pdp.getCurrent(14));
+        SmartDashboard.putString( "DB/String 8", "I15: " + pdp.getCurrent(15));
     }
     
     /**

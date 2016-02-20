@@ -18,7 +18,7 @@ public class BoulderLoader extends Subsystem
 	public BoulderLoader()
 	{
 		loader = new Servo( RobotMap.LOADING_SERVO );
-		loader.set(0);
+		loader.setAngle(180);
 	}
 	
 	public void set( double angle )
