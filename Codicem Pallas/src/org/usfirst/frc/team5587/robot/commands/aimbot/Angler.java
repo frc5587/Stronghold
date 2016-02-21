@@ -24,10 +24,10 @@ public class Angler
 		findIndex();
 	}
 	
-	private void findIndex()
+	public void findIndex()
     {
     	double[] defaultValue = new double[0];
-    	double [] areas = table.getNumberArray( "Area", defaultValue );
+    	double [] areas = table.getNumberArray( "targets/area", defaultValue );
     	if ( areas.length > 0 )
     	{
 			int index = 0;
@@ -43,7 +43,7 @@ public class Angler
 		}
     	else
     	{
-    		return;
+    		this.index = -1;
     	}
     }
     
@@ -69,13 +69,13 @@ public class Angler
     
     public double calcDistance()
     {
-    	distance = ( TARGET_HEIGHT * table.getNumberArray( "height", new double [0])[ index ] * Y_COEFFICIENT )
+    	distance = ( TARGET_HEIGHT * table.getNumberArray( "target/height", new double [0])[ index ] * Y_COEFFICIENT )
     				/ IMAGE_HEIGHT;
     	return distance;
     }
     
     public double calcAngleY()
     {
-    	return Math.atan( CENTER_HEIGHT / distance );
+    	return Math.toDegrees( Math.atan( CENTER_HEIGHT / distance ) );
     }
 }

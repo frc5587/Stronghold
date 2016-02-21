@@ -13,7 +13,7 @@ public class Fire extends Command
 {
 
 	private BoulderLoader loader;
-	private static final int LOADING_ANGLE = 135;
+	private static final int LOADING_ANGLE = 100;
     public Fire()
     {
         // Use requires() here to declare subsystem dependencies
