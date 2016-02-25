@@ -69,9 +69,14 @@ public class Angler
     
     public double calcDistance()
     {
-    	distance = ( TARGET_HEIGHT * table.getNumberArray( "target/height", new double [0])[ index ] * Y_COEFFICIENT )
+    	if( index >= 0)
+    	{
+    		distance = ( TARGET_HEIGHT * table.getNumberArray( "target/height", new double [0])[ index ] * Y_COEFFICIENT )
     				/ IMAGE_HEIGHT;
-    	return distance;
+    		return distance;
+    	}
+    	else
+    		return -1;
     }
     
     public double calcAngleY()
