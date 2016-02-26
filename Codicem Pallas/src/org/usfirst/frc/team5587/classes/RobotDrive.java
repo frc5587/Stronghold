@@ -6,7 +6,7 @@ import edu.wpi.first.wpilibj.MotorSafety;
 import edu.wpi.first.wpilibj.MotorSafetyHelper;
 import edu.wpi.first.wpilibj.PWM;
 import edu.wpi.first.wpilibj.SpeedController;
-import edu.wpi.first.wpilibj.VictorSP;
+import edu.wpi.first.wpilibj.Talon;
 import edu.wpi.first.wpilibj.communication.UsageReporting;
 import edu.wpi.first.wpilibj.communication.FRCNetworkCommunicationsLibrary.tInstances;
 import edu.wpi.first.wpilibj.communication.FRCNetworkCommunicationsLibrary.tResourceType;
@@ -74,7 +74,7 @@ public class RobotDrive implements MotorSafety
 	/**
 	 * Constructor for RobotDrive with 2 motors specified with channel numbers.
 	 * Set up parameters for a two wheel drive system where the left and right
-	 * motor pwm channels are specified in the call. This call assumes VictorSPs for
+	 * motor pwm channels are specified in the call. This call assumes Talons for
 	 * controlling the motors.
 	 *$
 	 * @param leftMotorChannel The PWM channel number that drives the left motor.
@@ -86,9 +86,9 @@ public class RobotDrive implements MotorSafety
 		m_sensitivity = kDefaultSensitivity;
 	    m_maxOutput = kDefaultMaxOutput;
 	    m_frontLeftMotor = null;
-	    m_rearLeftMotor = new VictorSP(leftMotorChannel);
+	    m_rearLeftMotor = new Talon(leftMotorChannel);
 	    m_frontRightMotor = null;
-	    m_rearRightMotor = new VictorSP(rightMotorChannel);
+	    m_rearRightMotor = new Talon(rightMotorChannel);
 	    m_allocatedSpeedControllers = true;
 	    setupMotorSafety();
 	    drive(0, 0);
@@ -97,7 +97,7 @@ public class RobotDrive implements MotorSafety
 	/**
 	 * Constructor for RobotDrive with 4 motors specified with channel numbers.
 	 * Set up parameters for a four wheel drive system where all four motor pwm
-	 * channels are specified in the call. This call assumes VictorSPs for
+	 * channels are specified in the call. This call assumes Talons for
 	 * controlling the motors.
 	 *$
 	 * @param frontLeftMotor Front left motor channel number
@@ -110,10 +110,10 @@ public class RobotDrive implements MotorSafety
 	{
 		m_sensitivity = kDefaultSensitivity;
 		m_maxOutput = kDefaultMaxOutput;
-		m_rearLeftMotor = new VictorSP(rearLeftMotor);
-		m_rearRightMotor = new VictorSP(rearRightMotor);
-		m_frontLeftMotor = new VictorSP(frontLeftMotor);
-		m_frontRightMotor = new VictorSP(frontRightMotor);
+		m_rearLeftMotor = new Talon(rearLeftMotor);
+		m_rearRightMotor = new Talon(rearRightMotor);
+		m_frontLeftMotor = new Talon(frontLeftMotor);
+		m_frontRightMotor = new Talon(frontRightMotor);
 		m_allocatedSpeedControllers = true;
 		setupMotorSafety();
 	    drive(0, 0);

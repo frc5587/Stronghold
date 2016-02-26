@@ -13,4 +13,6 @@
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.GivenMove"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.CameraServer"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.Angler2"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Talon"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5587.robot.commands.ThrottleMove"/>
 </qualifiedTypeNameHistroy>

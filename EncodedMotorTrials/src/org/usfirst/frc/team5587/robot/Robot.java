@@ -11,6 +11,7 @@ import edu.wpi.first.wpilibj.networktables.NetworkTable;
 import org.usfirst.frc.team5587.robot.commands.Angler2;
 import org.usfirst.frc.team5587.robot.commands.GivenMove;
 import org.usfirst.frc.team5587.robot.commands.Move;
+import org.usfirst.frc.team5587.robot.commands.ThrottleMove;
 import org.usfirst.frc.team5587.robot.subsystems.EncodedMotor;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
@@ -41,14 +42,14 @@ public class Robot extends IterativeRobot {
      */
     public void robotInit() {
 		oi = new OI();
-		teleOp = new Move( RobotMap.DRIVER );
+		teleOp = new ThrottleMove( RobotMap.DRIVER );
 		auto = new GivenMove( 360 );
-		
-		server = CameraServer.getInstance();
-        server.setQuality(50);
-        server.startAutomaticCapture("cam0");
-        
-        table = NetworkTable.getTable("GRIP");
+		motor.reset();
+//		server = CameraServer.getInstance();
+//        server.setQuality(50);
+//        server.startAutomaticCapture("cam0");
+//        
+//        table = NetworkTable.getTable("GRIP");
     }
 	
 	/**
@@ -57,7 +58,6 @@ public class Robot extends IterativeRobot {
 	 * the robot is disabled.
      */
     public void disabledInit(){
-    	motor.reset();
     }
 	
 	public void disabledPeriodic() {
@@ -102,7 +102,7 @@ public class Robot extends IterativeRobot {
         // teleop starts running. If you want the autonomous to 
         // continue until interrupted by another command, remove
         // this line or comment it out.
-        auto.cancel();
+    	auto.cancel();
     	teleOp.start();
     }
 
@@ -111,11 +111,9 @@ public class Robot extends IterativeRobot {
      */
     public void teleopPeriodic() {
         Scheduler.getInstance().run();
-        Angler2 a = new Angler2( table );
         SmartDashboard.putString( "DB/String 0", "" + motor.getRaw() );
         SmartDashboard.putString( "DB/String 1", "" + motor.get() );
         SmartDashboard.putString( "DB/String 2", "" + motor.getAngle() );
-        SmartDashboard.putString( "DB/String 3", "" + a.index );
     }
     
     /**

@@ -5,8 +5,6 @@ import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
 import org.usfirst.frc.team5587.classes.DependentButton;
-import org.usfirst.frc.team5587.robot.commands.Lift;
-import org.usfirst.frc.team5587.robot.commands.Stop;
 import org.usfirst.frc.team5587.robot.commands.firing.Fire;
 import org.usfirst.frc.team5587.robot.commands.firing.Spin;
 
@@ -42,10 +40,6 @@ public class OI
     	sweepIn.whileHeld( new Spin( false ) ); //While held the launch wheels will spin inwards
     	prime.whileHeld( new Spin( true ) ); //While held the launch wheels will spin outwards
     	fire.whenPressed( new Fire() ); //If pressed while prime is also pressed, will fire the ball
-    	up.whileHeld(new Lift( true ));
-    	up.whenReleased(new Stop());
-    	down.whileHeld( new Lift( false ));
-    	down.whenReleased( new Stop() );
     	
 	}
     // There are a few additional built in buttons you can use. Additionally,

@@ -2,6 +2,7 @@
 package org.usfirst.frc.team5587.robot.subsystems;
 
 import edu.wpi.first.wpilibj.Encoder;
+import edu.wpi.first.wpilibj.Talon;
 import edu.wpi.first.wpilibj.VictorSP;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
@@ -12,14 +13,14 @@ public class EncodedMotor extends Subsystem {
     
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-	private VictorSP motor;
+	private Talon motor;
 	private Encoder encoder;
 	
 	public EncodedMotor( int motorChannel, int aChannel, int bChannel )
 	{
-		motor = new VictorSP( motorChannel );
+		motor = new Talon( motorChannel );
 		encoder = new Encoder( aChannel, bChannel );
-		encoder.setDistancePerPulse( 360.0 / 7 );
+		encoder.setDistancePerPulse( 360.0 / 500 );
 	}
 	
 	public int getRaw()
@@ -34,7 +35,7 @@ public class EncodedMotor extends Subsystem {
 	
 	public double getAngle()
 	{
-		return encoder.getDistance();
+		return ( Math.abs( encoder.getDistance() % 360 ) );
 	}
 	
 	public void reset()

@@ -4,6 +4,7 @@ import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.subsystems.EncodedMotor;
 
 import edu.wpi.first.wpilibj.command.Command;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 /**
  *
@@ -31,7 +32,7 @@ public class GivenMove extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	
+    	SmartDashboard.putString( "DB/String 2", "" + motor.getAngle() );
     }
 
     // Make this return true when this Command no longer needs to run execute()

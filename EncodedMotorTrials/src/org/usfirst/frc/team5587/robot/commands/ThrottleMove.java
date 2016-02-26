@@ -34,7 +34,7 @@ public class ThrottleMove extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	target = ( stick.getRawAxis(3) * 90.0 / 7 );
+    	target = ( (stick.getRawAxis(3) + 1) * 45.0 );
     	
     	if( motor.getAngle() > target + 5 )
     		motor.move( .25 );
