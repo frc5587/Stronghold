@@ -19,32 +19,32 @@ public class StrongArm extends Subsystem
 	public StrongArm(){
 		motor = new VictorSP( RobotMap.AIMING_MOTOR );
 		encoder.setDistancePerPulse( 360.0 / 500 );
-}
+	}
 
-public int getRaw()
-{
-	return encoder.getRaw();
-}
+	public int getRaw()
+	{
+		return encoder.getRaw();
+	}
 
-public int get()
-{
-	return encoder.get();
-}
+	public int get()
+	{
+		return encoder.get();
+	}
 
-public double getAngle()
-{
-	return ( Math.abs( encoder.getDistance() % 360 ) );
-}
+	public double getAngle()
+	{
+		return ( Math.abs( encoder.getDistance() % 360 ) );
+	}
 
-public void reset()
-{
-	encoder.reset();
-}
+	public void reset()
+	{
+		encoder.reset();
+	}
 
-public void move( double p )
-{
-	motor.set( p );
-}
+	public void move( double p )
+	{
+		motor.set( p );
+	}
 	
     public void initDefaultCommand()
     {

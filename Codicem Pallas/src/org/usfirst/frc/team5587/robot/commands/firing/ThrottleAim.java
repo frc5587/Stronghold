@@ -36,9 +36,9 @@ public class ThrottleAim extends Command
     	target = ( (stick.getRawAxis(3) + 1) * 45.0 );
     	
     	if( arm.getAngle() > target + 5 )
-    		arm.move( power );
-    	else if( arm.getAngle() < target - 5 )
     		arm.move( -power );
+    	else if( arm.getAngle() < target - 5 )
+    		arm.move( power );
     	else
     		arm.move( 0 );
     }

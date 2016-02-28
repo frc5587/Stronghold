@@ -2,6 +2,7 @@ package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.commands.Canter;
+import org.usfirst.frc.team5587.robot.commands.firing.ThrottleAim;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.CommandGroup;
@@ -19,6 +20,8 @@ public class TeleOpDrive extends CommandGroup
         //      addSequential(new Command2());
         // these will run in order.
     	requires( Robot.hooves );
+    	requires( Robot.arm );
+    	addParallel( new ThrottleAim( stick) );
     	addSequential( new Canter( stick ) );
         // To run multiple commands at the same time,
         // use addParallel()
