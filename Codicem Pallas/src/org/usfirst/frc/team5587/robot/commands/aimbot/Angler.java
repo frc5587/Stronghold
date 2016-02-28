@@ -11,7 +11,7 @@ public class Angler
 								RIGHT_LIMIT = 400,
 								TARGET_HEIGHT = 14,
 								CENTER_HEIGHT = 90,
-								IMAGE_HEIGHT = 240,
+								IMAGE_HEIGHT = 480,
 								Y_COEFFICIENT = (55.0/87.0),
 								X_COEFFICIENT = 120;
 								
@@ -71,8 +71,8 @@ public class Angler
     {
     	if( index >= 0)
     	{
-    		distance = ( TARGET_HEIGHT * table.getNumberArray( "target/height", new double [0])[ index ] * Y_COEFFICIENT )
-    				/ IMAGE_HEIGHT;
+    		distance = ( TARGET_HEIGHT * IMAGE_HEIGHT * Y_COEFFICIENT )
+    				/ table.getNumberArray( "targets/height", new double [0])[ index ];
     		return distance;
     	}
     	else

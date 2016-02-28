@@ -46,7 +46,6 @@ public class Spin extends Command
     // Called once after isFinished returns true
     protected void end()
     {
-    	if( direction )
     		wheels.stop();
     }
 
