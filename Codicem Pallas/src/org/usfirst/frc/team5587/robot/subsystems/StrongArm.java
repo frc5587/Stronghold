@@ -16,8 +16,9 @@ public class StrongArm extends Subsystem
     private Encoder encoder;
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-	public StrongArm(){
-		motor = new VictorSP( RobotMap.AIMING_MOTOR );
+	public StrongArm( int m, int a, int b ){
+		motor = new VictorSP( m );
+		encoder = new Encoder( a, b );
 		encoder.setDistancePerPulse( 360.0 / 500 );
 	}
 

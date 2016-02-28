@@ -19,8 +19,8 @@ public class ThrottleAim extends Command
     {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
-    	requires(Robot.arm);
-    	arm = Robot.arm;
+    	//requires(Robot.arm);
+    	//arm = Robot.arm;
     	stick = j;
     }
 

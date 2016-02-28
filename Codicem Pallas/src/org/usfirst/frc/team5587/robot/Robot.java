@@ -31,7 +31,9 @@ public class Robot extends IterativeRobot
 	public static final Hooves hooves = new Hooves();
 	public static final BoulderLoader loader = new BoulderLoader();
 	public static final SpinningWheelsOfDeath firingWheels = new SpinningWheelsOfDeath();
-	public static final StrongArm arm = new StrongArm();
+	public static final StrongArm arm = new StrongArm( RobotMap.AIMING_MOTOR,
+													   RobotMap.ENCODER_A,
+													   RobotMap.ENCODER_B);
 	
 	CameraServer server;
 	CommandGroup teleOp;

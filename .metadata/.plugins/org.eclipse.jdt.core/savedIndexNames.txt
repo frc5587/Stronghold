@@ -4,7 +4,6 @@ INDEX VERSION 1.127+C:\Users\Christino\Documents\Team Code\Team-5587-Stronghold\
 2085746493.index
 3306367843.index
 2053797313.index
-2444703956.index
 2235551016.index
 1153502014.index
 146030033.index

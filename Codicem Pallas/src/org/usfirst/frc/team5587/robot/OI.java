@@ -4,7 +4,6 @@ import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
-import org.usfirst.frc.team5587.classes.DependentButton;
 import org.usfirst.frc.team5587.robot.commands.firing.Fire;
 import org.usfirst.frc.team5587.robot.commands.firing.Spin;
 
@@ -21,7 +20,7 @@ public class OI
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
     public Joystick driver, codriver;
-	Button sweepIn, prime, up, down,fire;
+	Button sweepIn, prime,fire;
     
 	public OI()
 	{
@@ -33,8 +32,6 @@ public class OI
     	sweepIn = new JoystickButton( driver, RobotMap.SWEEP_IN );
     	prime = new JoystickButton( driver, RobotMap.PRIME );
     	fire = new JoystickButton( driver, RobotMap.FIRE );
-    	up = new JoystickButton( driver, RobotMap.UP );
-    	down = new JoystickButton( driver, RobotMap.DOWN);
     
     	//Buttons and Commands
     	sweepIn.toggleWhenPressed( new Spin( false ) ); //While held the launch wheels will spin inwards

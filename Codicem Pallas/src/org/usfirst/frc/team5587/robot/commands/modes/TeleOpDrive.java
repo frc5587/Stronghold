@@ -20,8 +20,8 @@ public class TeleOpDrive extends CommandGroup
         //      addSequential(new Command2());
         // these will run in order.
     	requires( Robot.hooves );
-    	requires( Robot.arm );
-    	addParallel( new ThrottleAim( stick) );
+    	//requires( Robot.arm );
+    	//addParallel( new ThrottleAim( stick) );
     	addSequential( new Canter( stick ) );
         // To run multiple commands at the same time,
         // use addParallel()
