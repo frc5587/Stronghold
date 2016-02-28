@@ -37,10 +37,9 @@ public class OI
     	down = new JoystickButton( driver, RobotMap.DOWN);
     
     	//Buttons and Commands
-    	sweepIn.whileHeld( new Spin( false ) ); //While held the launch wheels will spin inwards
-    	prime.whileHeld( new Spin( true ) ); //While held the launch wheels will spin outwards
+    	sweepIn.toggleWhenPressed( new Spin( false ) ); //While held the launch wheels will spin inwards
+    	prime.toggleWhenPressed( new Spin( true ) ); //While held the launch wheels will spin outwards
     	fire.whenPressed( new Fire() ); //If pressed while prime is also pressed, will fire the ball
-    	
 	}
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to

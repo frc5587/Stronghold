@@ -48,7 +48,7 @@ public class Trot extends Command
     	endTime = System.currentTimeMillis();
     	elapsedTime = (endTime - startTime)/1000.0;
     	
-    	return elapsedTime == targetTime;
+    	return (elapsedTime >= targetTime - .05) &&( elapsedTime <= targetTime +.05 );
     }
 
     // Called once after isFinished returns true

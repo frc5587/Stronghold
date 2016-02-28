@@ -1,18 +1,18 @@
+
 package org.usfirst.frc.team5587.robot.commands;
 
-import org.usfirst.frc.team5587.robot.Robot;
-
 import edu.wpi.first.wpilibj.command.Command;
+
+import org.usfirst.frc.team5587.robot.Robot;
 
 /**
  *
  */
-public class Stop extends Command {
+public class ExampleCommand extends Command {
 
-    public Stop() {
+    public ExampleCommand() {
         // Use requires() here to declare subsystem dependencies
-        // eg. requires(chassis);
-    	requires( Robot.firingWheels );
+        requires(Robot.exampleSubsystem);
     }
 
     // Called just before this Command runs the first time
@@ -21,12 +21,11 @@ public class Stop extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	Robot.firingWheels.stop();
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        return true;
+        return false;
     }
 
     // Called once after isFinished returns true

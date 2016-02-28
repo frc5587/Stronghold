@@ -143,3 +143,4 @@ java.net.UnknownHostException: services.gradle.org
 2016-02-26 16:26:10,098 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2016-02-26 17:59:11,026 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@191f62d1{HTTP/1.1}{127.0.0.1:0}
 2016-02-26 17:59:11,036 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4c730149{/help,null,UNAVAILABLE}
+2016-02-27 12:36:35,258 [Worker-28] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.

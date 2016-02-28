@@ -27,8 +27,6 @@ public class Hooves extends Subsystem
 								  RobotMap.LEFT_REAR_MOTOR,
 								  RobotMap.RIGHT_FRONT_MOTOR,
 								  RobotMap.RIGHT_REAR_MOTOR );
-		trotter.setInvertedMotor( RobotDrive.MotorType.kFrontRight, true );
-		trotter.setInvertedMotor( RobotDrive.MotorType.kRearRight, true);
 	}
 	
 	/*

@@ -22,6 +22,7 @@ public class Spin extends Command
     	requires( Robot.firingWheels );
     	direction = d;
     	wheels = Robot.firingWheels;
+    	this.setInterruptible( false );
     }
 
     // Called just before this Command runs the first time
