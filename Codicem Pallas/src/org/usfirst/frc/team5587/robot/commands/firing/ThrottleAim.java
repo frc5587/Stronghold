@@ -11,14 +11,16 @@ import edu.wpi.first.wpilibj.command.Command;
  */
 public class ThrottleAim extends Command
 {
+	private static final double power = .4;
 	private Joystick stick;
 	private StrongArm arm;
+	private double target;
     public ThrottleAim( Joystick j )
     {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
-    	requires(Robot.arm);
-    	arm = Robot.arm;
+    	//requires(Robot.arm);
+    	//arm = Robot.arm;
     	stick = j;
     }
 
@@ -31,16 +33,14 @@ public class ThrottleAim extends Command
     // Called repeatedly when this Command is scheduled to run
     protected void execute()
     {
-    	int angle = arm.scale(stick.getThrottle());
+    	target = ( (stick.getRawAxis(3) + 1) * 45.0 );
     	
-    	arm.setTarget(angle);
-    	
-    	if( arm.diffToTarget() > 0 )
-    		arm.move( true );
-    	else if( arm.diffToTarget() < 0 )
-    		arm.move( false );
+    	if( arm.getAngle() > target + 5 )
+    		arm.move( -power );
+    	else if( arm.getAngle() < target - 5 )
+    		arm.move( power );
     	else
-    		arm.stop();
+    		arm.move( 0 );
     }
 
     // Make this return true when this Command no longer needs to run execute()
