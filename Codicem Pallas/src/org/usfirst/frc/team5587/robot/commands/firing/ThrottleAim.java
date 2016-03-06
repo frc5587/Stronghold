@@ -27,17 +27,17 @@ public class ThrottleAim extends Command
     // Called just before this Command runs the first time
     protected void initialize()
     {
-    	
+    	double startValue = arm.getAngle();
     }
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute()
     {
-    	target = ( (stick.getRawAxis(3) + 1) * 45.0 );
+    	target = ( (stick.getRawAxis(3) - 1) * 55.0 );
     	
-    	if( arm.getAngle() > target + 5 )
+    	if( arm.getAngle() > startValue-target + 1 )
     		arm.move( -power );
-    	else if( arm.getAngle() < target - 5 )
+    	else if( arm.getAngle() < startValue-target - 1 )
     		arm.move( power );
     	else
     		arm.move( 0 );
