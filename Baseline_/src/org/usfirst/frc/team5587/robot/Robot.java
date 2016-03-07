@@ -25,19 +25,19 @@ import org.usfirst.frc.team5587.robot.subsystems.*;
  * directory.
  */
 public class Robot extends IterativeRobot
-{	
+{
 	public static NetworkTable table;
 	public static OI oi;
 	public static final Hooves hooves = new Hooves();
 	public static final BoulderLoader loader = new BoulderLoader();
 	public static final SpinningWheelsOfDeath firingWheels = new SpinningWheelsOfDeath();
 	public static final StrongArm arm = new StrongArm( RobotMap.AIMING_MOTOR, RobotMap.ENCODER_A, RobotMap.ENCODER_B );
-	
+
 	CameraServer server;
 	CommandGroup teleOp;
     CommandGroup autonomousCommand;
     SendableChooser chooser;
-    
+
     private PowerDistributionPanel pdp;
 
     /**
@@ -51,7 +51,7 @@ public class Robot extends IterativeRobot
         } catch (IOException e) {
             e.printStackTrace();
         }
-    	
+
         oi = new OI();
 		teleOp = new TeleOpDrive( oi.driver );
         chooser = new SendableChooser();
@@ -59,17 +59,18 @@ public class Robot extends IterativeRobot
         chooser.addObject("Do Nothing", null );
         chooser.addObject( "Low Bar", new LowAuto());
         SmartDashboard.putData( "Auto Chooser", chooser );
-        
-       
-        server = CameraServer.getInstance();
-        server.setQuality(100);
-        server.startAutomaticCapture("cam0");
-        
+
+       //JD said that this makes it faster
+        server = CameraServer.getInstance().startAutomaticCapture("cam0");
+
+				//uncomment for quality changes
+        //server.setQuality(100);
+
         table = NetworkTable.getTable("GRIP");
         pdp = new PowerDistributionPanel();
         arm.reset();
     }
-	
+
 	/**
      * This function is called once each time the robot enters Disabled mode.
      * You can use it to reset any subsystem information you want to clear when
@@ -79,7 +80,7 @@ public class Robot extends IterativeRobot
     {
 
     }
-	
+
 	public void disabledPeriodic()
 	{
 		Scheduler.getInstance().run();
@@ -97,7 +98,7 @@ public class Robot extends IterativeRobot
     public void autonomousInit()
     {
         autonomousCommand = (CommandGroup) chooser.getSelected();
-        
+
 		/* String autoSelected = SmartDashboard.getString("Auto Selector", "Default");
 		switch(autoSelected) {
 		case "My Auto":
@@ -108,7 +109,7 @@ public class Robot extends IterativeRobot
 			autonomousCommand = new ExampleCommand();
 			break;
 		} */
-    	
+
     	// schedule the autonomous command (example)
         if (autonomousCommand != null) autonomousCommand.start();
     }
@@ -124,7 +125,7 @@ public class Robot extends IterativeRobot
     public void teleopInit()
     {
 		// This makes sure that the autonomous stops running when
-        // teleop starts running. If you want the autonomous to 
+        // teleop starts running. If you want the autonomous to
         // continue until interrupted by another command, remove
         // this line or comment it out.
         if (autonomousCommand != null) autonomousCommand.cancel();
@@ -152,7 +153,7 @@ public class Robot extends IterativeRobot
         SmartDashboard.putString( "DB/String 8", "I14: " + pdp.getCurrent(14));
         SmartDashboard.putString( "DB/String 9", "I15: " + pdp.getCurrent(15));
     }
-    
+
     /**
      * This function is called periodically during test mode
      */
