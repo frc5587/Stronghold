@@ -38,6 +38,7 @@ public class RobotMap
 	public static int SWEEP_IN = 5; //Spins the wheels inward to collect a boulder
 	public static int UP = 3;
 	public static int DOWN = 2;
+	public static int TURBO_DRIVE = 6; //Used to modify drive speed
 	
     // If you are using multiple modules, make sure to define both the port
     // number and the module. For example you with a rangefinder:
