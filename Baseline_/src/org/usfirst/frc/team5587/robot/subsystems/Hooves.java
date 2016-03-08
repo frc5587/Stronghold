@@ -17,7 +17,8 @@ public class Hooves extends Subsystem
 
 	//Provides a limitation to the maximum speed of the drive train (needs to be tested)
 	private static final double SCALE_FACTOR_Y = .75;
-	private static final double SCALE_FACTOR_X = .4;
+	private static final double SCALE_FACTOR_X = .5;
+	private double newYScale, newXScale;
 	
 	private RobotDrive trotter;
 	
@@ -50,7 +51,15 @@ public class Hooves extends Subsystem
 	{
 		double xValue = stick.getX();
 		double yValue = stick.getY();
-		trotter.arcadeDrive( -yValue * SCALE_FACTOR_Y, -xValue * SCALE_FACTOR_X, false);
+		boolean isTurbo = stick.getTurbo();
+		if(isTurbo){
+			newYScale = 1;
+			newXScale = .75;
+		else{
+			newYScale = SCALE_FACTOR_Y;
+			newXScale = SCALE_FACTOR_X;
+		}
+		trotter.arcadeDrive( -yValue * newYScale, -xValue * newXScale, false);
 	}
 	
 	public void stop()
