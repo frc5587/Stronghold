@@ -142,7 +142,7 @@ public class Robot extends IterativeRobot
         //SmartDashboard.putNumber( "DB/String 2", a.calcAngleY());
         //SmartDashboard.putNumber( "DB/String 3", a.index );
         SmartDashboard.putString( "DB/String 0", "" + a.index );
-        SmartDashboard.putString( "DB/String 1", "" + arm.getAngle() );
+        SmartDashboard.putString( "DB/String 1", "" + arm.get() );
         SmartDashboard.putString( "DB/String 2", "I0: " + pdp.getCurrent(0));
         SmartDashboard.putString( "DB/String 3", "I1: " + pdp.getCurrent(1));
         SmartDashboard.putString( "DB/String 4", "I2: " + pdp.getCurrent(2));

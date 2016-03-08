@@ -1,4 +1,4 @@
-package org.usfirst.frc.team5587.robot.commands.firing;
+package org.usfirst.frc.team5587.robot.commands.arm;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
@@ -34,12 +34,7 @@ public class ThrottleAim extends Command
     {
     	target = ( (stick.getRawAxis(3) + 1) * 45.0 );
     	
-    	if( arm.getAngle() > target + 5 )
-    		arm.move( true );
-    	else if( arm.getAngle() < target - 5 )
-    		arm.move( false );
-    	else
-    		arm.stop();
+    	arm.setSetpoint(target);
     }
 
     // Make this return true when this Command no longer needs to run execute()
