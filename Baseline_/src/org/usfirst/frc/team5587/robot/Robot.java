@@ -61,7 +61,7 @@ public class Robot extends IterativeRobot
         SmartDashboard.putData( "Auto Chooser", chooser );
 
        //JD said that this makes it faster
-        server = CameraServer.getInstance().startAutomaticCapture("cam0");
+       CameraServer.getInstance().startAutomaticCapture("cam0");
 
 				//uncomment for quality changes
         //server.setQuality(100);
