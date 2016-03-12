@@ -24,7 +24,10 @@ public class Lift extends Command
     // Called just before this Command runs the first time
     protected void initialize()
     {
-    	arm.move( direction );
+    	double setPoint = 5.0;
+    	if( direction )
+    		setPoint = -5.0;
+    	arm.setSetpointRelative( 5.0 );
     }
 
     // Called repeatedly when this Command is scheduled to run

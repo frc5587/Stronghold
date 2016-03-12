@@ -20,9 +20,11 @@ public class StrongArm extends PIDSubsystem
     // here. Call these from Commands.
 	public StrongArm()
 	{
-		super( "Strong Arm", 2.0, 0.0, 0.0 );
-		encoder.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
-		setAbsoluteTolerance( 1 );
+		super( "Strong Arm", 0.05, 0.0, 0.0 );
+		encoder.setDistancePerPulse( (360.0 / 497) * (16.0 / 50) );
+		encoder.setReverseDirection( true );
+		setAbsoluteTolerance( 5 );
+		setOutputRange( -.4, .4 );
 	}
 
 	public int getRaw()
@@ -37,7 +39,7 @@ public class StrongArm extends PIDSubsystem
 	
 	public double getAngle()
 	{
-		return ( Math.abs( encoder.getDistance() % 360 ) );
+		return ( encoder.getDistance() % 360 );
 	}
 	
 	public void reset()
@@ -66,7 +68,7 @@ public class StrongArm extends PIDSubsystem
 	
 	protected double returnPIDInput()
 	{
-		return encoder.getDistance();
+		return getAngle();
 	}
 	
 	protected void usePIDOutput( double output )

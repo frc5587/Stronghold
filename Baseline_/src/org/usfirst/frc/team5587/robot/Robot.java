@@ -14,6 +14,7 @@ import java.io.IOException;
 
 import org.usfirst.frc.team5587.classes.CameraServer;
 import org.usfirst.frc.team5587.robot.commands.aimbot.Angler;
+import org.usfirst.frc.team5587.robot.commands.arm.AbsoluteLift;
 import org.usfirst.frc.team5587.robot.commands.modes.*;
 import org.usfirst.frc.team5587.robot.subsystems.*;
 
@@ -98,6 +99,7 @@ public class Robot extends IterativeRobot
     {
         autonomousCommand = (CommandGroup) chooser.getSelected();
         
+    	
 		/* String autoSelected = SmartDashboard.getString("Auto Selector", "Default");
 		switch(autoSelected) {
 		case "My Auto":
@@ -141,8 +143,8 @@ public class Robot extends IterativeRobot
         //SmartDashboard.putNumber( "DB/String 1", a.calcDistance() );
         //SmartDashboard.putNumber( "DB/String 2", a.calcAngleY());
         //SmartDashboard.putNumber( "DB/String 3", a.index );
-        SmartDashboard.putString( "DB/String 0", "" + a.index );
-        SmartDashboard.putString( "DB/String 1", "" + arm.get() );
+        SmartDashboard.putString( "DB/String 0", "" + oi.driver.getRawAxis(3) );
+        SmartDashboard.putString( "DB/String 1", "" + arm.getAngle() );
         SmartDashboard.putString( "DB/String 2", "I0: " + pdp.getCurrent(0));
         SmartDashboard.putString( "DB/String 3", "I1: " + pdp.getCurrent(1));
         SmartDashboard.putString( "DB/String 4", "I2: " + pdp.getCurrent(2));

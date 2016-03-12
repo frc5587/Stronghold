@@ -4,6 +4,7 @@ import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
+import org.usfirst.frc.team5587.robot.commands.arm.AbsoluteLift;
 import org.usfirst.frc.team5587.robot.commands.arm.HoldArm;
 import org.usfirst.frc.team5587.robot.commands.arm.Lift;
 import org.usfirst.frc.team5587.robot.commands.firing.Fire;
@@ -22,7 +23,7 @@ public class OI
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
     public Joystick driver, codriver;
-	Button sweepIn, prime, up, down,fire;
+	Button sweepIn, prime, up, down, fire, shootAngle, dropAngle, topAngle;
     
 	public OI()
 	{
@@ -36,15 +37,20 @@ public class OI
     	fire = new JoystickButton( driver, RobotMap.FIRE );
     	up = new JoystickButton( driver, RobotMap.UP );
     	down = new JoystickButton( driver, RobotMap.DOWN);
+    	shootAngle = new JoystickButton( driver, RobotMap.SHOOT_ANGLE );
+    	topAngle = new JoystickButton( driver, RobotMap.TOP );
+    	dropAngle = new JoystickButton( driver, RobotMap.DROP );
+    	
     
     	//Buttons and Commands
     	sweepIn.toggleWhenPressed( new Spin( false ) ); //While held the launch wheels will spin inwards
     	prime.toggleWhenPressed( new Spin( true ) ); //While held the launch wheels will spin outwards
     	fire.whenPressed( new Fire() ); //If pressed while prime is also pressed, will fire the ball
-    	up.whenPressed(new Lift( true ));
-    	up.whenReleased(new HoldArm() );
-    	down.whenPressed( new Lift( false ) );
-    	down.whenReleased( new HoldArm() );
+    	up.whileHeld(new Lift( true ));
+    	down.whileHeld( new Lift( false ) );
+    	shootAngle.whenPressed( new AbsoluteLift( 90 ) );
+    	topAngle.whenPressed( new AbsoluteLift( 0 ) );
+    	dropAngle.whenPressed( new AbsoluteLift( 230 ));
 	}
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to

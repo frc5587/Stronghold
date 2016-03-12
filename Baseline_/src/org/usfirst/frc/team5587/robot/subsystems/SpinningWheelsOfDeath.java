@@ -16,7 +16,7 @@ public class SpinningWheelsOfDeath extends Subsystem
     // here. Call these from Commands.
 	private RobotDrive launchWheels;
 	private static final double LAUNCH_POWER = -1.0, //The power necessary to launch a ball at the desired speed
-							   INTAKE_POWER = .5; //The power necessary to bring a ball into the mechanism
+							   INTAKE_POWER = .6; //The power necessary to bring a ball into the mechanism
 	
 	public SpinningWheelsOfDeath()
 	{
