@@ -15,50 +15,49 @@ public class StrongArm extends PIDSubsystem
 {
 	private static final double power = -.8;
 	
-    private static final VictorSP motor = new VictorSP( RobotMap.AIMING_MOTOR );
-    private Encoder encoder;
+    private static final VictorSP MOTOR = new VictorSP( RobotMap.AIMING_MOTOR );
+    private static final Encoder ENCODER = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	public StrongArm(){
 		super( "StrongArm", .05, 0.0, 0.0 );
-		encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
-		encoder.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
-		encoder.setReverseDirection( true );
-		encoder.setPIDSourceType( PIDSourceType.kDisplacement );
+		ENCODER.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
+		ENCODER.setReverseDirection( true );
+		ENCODER.setPIDSourceType( PIDSourceType.kDisplacement );
 		
 	}
 
 	public int getRaw()
 	{
-		return encoder.getRaw();
+		return ENCODER.getRaw();
 	}
 
 	public int get()
 	{
-		return encoder.get();
+		return ENCODER.get();
 	}
 
 	public double getAngle()
 	{
-		return ( encoder.getDistance() % 360 );
+		return ( ENCODER.getDistance() % 360 );
 	}
 
 	public void reset()
 	{
-		encoder.reset();
+		ENCODER.reset();
 	}
 
 	public void move( boolean d )
 	{
 		if( d )
-			motor.set( power );
+			MOTOR.set( power );
 		else
-			motor.set( -power );
+			MOTOR.set( -power );
 	}
 
 	public void stop()
 	{
-		motor.set(0);
+		MOTOR.set(0);
 	}
 	
     public void initDefaultCommand()
@@ -76,6 +75,6 @@ public class StrongArm extends PIDSubsystem
 	@Override
 	protected void usePIDOutput(double output) {
 		// TODO Auto-generated method stub
-		motor.set( output );
+		MOTOR.set( output );
 	}
 }
