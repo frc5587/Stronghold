@@ -51,7 +51,7 @@ public class Fire extends Command
     protected void end()
     {
     	
-    	loader.set( 178 );
+    	loader.set( 170 );
     }
 
     // Called when another command which requires one or more of the same

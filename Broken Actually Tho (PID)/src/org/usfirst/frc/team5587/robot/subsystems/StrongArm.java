@@ -3,10 +3,8 @@ package org.usfirst.frc.team5587.robot.subsystems;
 import org.usfirst.frc.team5587.robot.RobotMap;
 
 import edu.wpi.first.wpilibj.Encoder;
-import edu.wpi.first.wpilibj.PIDSourceType;
 import edu.wpi.first.wpilibj.VictorSP;
 import edu.wpi.first.wpilibj.command.PIDSubsystem;
-import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 
 /**
@@ -24,8 +22,6 @@ public class StrongArm extends PIDSubsystem
 	public StrongArm(){
 		super( "StrongArm", .05, 0.0, 0.0 );
 		ENCODER.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
-		ENCODER.setReverseDirection( true );
-		ENCODER.setPIDSourceType( PIDSourceType.kDisplacement );
 		setAbsoluteTolerance( TOLERANCE );
 		getPIDController().setContinuous( false );
 		LiveWindow.addActuator( "StrongArm", "PIDSubsystem Controller", getPIDController() );
@@ -73,12 +69,12 @@ public class StrongArm extends PIDSubsystem
 	@Override
 	protected double returnPIDInput() {
 		// TODO Auto-generated method stub
-		return getAngle();
+		return ENCODER.pidGet();
 	}
 
 	@Override
 	protected void usePIDOutput(double output) {
 		// TODO Auto-generated method stub
-		MOTOR.set( output );
+		MOTOR.pidWrite( output );
 	}
 }

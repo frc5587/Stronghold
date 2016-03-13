@@ -13,7 +13,6 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import java.io.IOException;
 
 import org.usfirst.frc.team5587.classes.CameraServer;
-import org.usfirst.frc.team5587.robot.commands.aimbot.Angler;
 import org.usfirst.frc.team5587.robot.commands.modes.*;
 import org.usfirst.frc.team5587.robot.subsystems.*;
 
@@ -122,6 +121,8 @@ public class Robot extends IterativeRobot
     public void autonomousPeriodic()
     {
         Scheduler.getInstance().run();
+
+        SmartDashboard.putString( "DB/String 1", "" + arm.getAngle() );
     }
 
     public void teleopInit()
@@ -132,6 +133,7 @@ public class Robot extends IterativeRobot
         // this line or comment it out.
         if (autonomousCommand != null) autonomousCommand.cancel();
         if (teleOp != null ) teleOp.start();
+        
     }
 
     /**
@@ -140,7 +142,6 @@ public class Robot extends IterativeRobot
     public void teleopPeriodic()
     {
         Scheduler.getInstance().run();
-        Angler a = new Angler( table );
 
         SmartDashboard.putNumber( "Arm Angle: ", arm.getAngle());
         
