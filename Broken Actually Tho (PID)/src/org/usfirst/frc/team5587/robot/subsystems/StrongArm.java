@@ -15,17 +15,17 @@ public class StrongArm extends PIDSubsystem
 {
 	private static final double power = -.8;
 	
-    private VictorSP motor;
+    private static final VictorSP motor = new VictorSP( RobotMap.AIMING_MOTOR );
     private Encoder encoder;
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	public StrongArm(){
-		super( .05, 0.0, 0.0 );
-		motor = new VictorSP( RobotMap.AIMING_MOTOR );
+		super( "StrongArm", .05, 0.0, 0.0 );
 		encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
 		encoder.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
 		encoder.setReverseDirection( true );
 		encoder.setPIDSourceType( PIDSourceType.kDisplacement );
+		
 	}
 
 	public int getRaw()
