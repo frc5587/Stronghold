@@ -22,8 +22,8 @@ public class RobotMap
 	public static int LEFT_SHOOTER_WHEEL = 8;
 	public static int RIGHT_SHOOTER_WHEEL = 9;
 	public static int LOADING_SERVO = 6;
-	public static int TOP_LIMIT = 0;
-	public static int BOTTOM_LIMIT = 1;
+	public static int TOP_LIMIT = 2;
+	public static int BOTTOM_LIMIT = 3;
 	
     //Aiming mechanism
 	public static int AIMING_MOTOR = 7;
