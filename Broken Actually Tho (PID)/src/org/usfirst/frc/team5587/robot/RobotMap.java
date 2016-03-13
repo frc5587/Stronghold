@@ -38,6 +38,9 @@ public class RobotMap
 	public static int SWEEP_IN = 5; //Spins the wheels inward to collect a boulder
 	public static int UP = 3;
 	public static int DOWN = 2;
+	public static int TOP = 6;
+	public static int SHOOT = 7;
+	public static int DROP = 8;
 	
     // If you are using multiple modules, make sure to define both the port
     // number and the module. For example you with a rangefinder:

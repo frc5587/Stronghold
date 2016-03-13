@@ -7,6 +7,7 @@ import edu.wpi.first.wpilibj.PIDSourceType;
 import edu.wpi.first.wpilibj.VictorSP;
 import edu.wpi.first.wpilibj.command.PIDSubsystem;
 import edu.wpi.first.wpilibj.command.Subsystem;
+import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 
 /**
  *
@@ -14,6 +15,7 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class StrongArm extends PIDSubsystem
 {
 	private static final double power = -.8;
+	private static final double TOLERANCE = 5;
 	
     private static final VictorSP MOTOR = new VictorSP( RobotMap.AIMING_MOTOR );
     private static final Encoder ENCODER = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
@@ -24,8 +26,9 @@ public class StrongArm extends PIDSubsystem
 		ENCODER.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
 		ENCODER.setReverseDirection( true );
 		ENCODER.setPIDSourceType( PIDSourceType.kDisplacement );
-		setAbsoluteTolerance( 5 );
+		setAbsoluteTolerance( TOLERANCE );
 		getPIDController().setContinuous( false );
+		LiveWindow.addActuator( "StrongArm", "PIDSubsystem Controller", getPIDController() );
 	}
 
 	public int getRaw()
