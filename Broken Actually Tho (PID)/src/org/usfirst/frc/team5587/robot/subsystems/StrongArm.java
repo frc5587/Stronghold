@@ -3,6 +3,7 @@ package org.usfirst.frc.team5587.robot.subsystems;
 import org.usfirst.frc.team5587.robot.RobotMap;
 
 import edu.wpi.first.wpilibj.Encoder;
+import edu.wpi.first.wpilibj.PIDSourceType;
 import edu.wpi.first.wpilibj.VictorSP;
 import edu.wpi.first.wpilibj.command.PIDSubsystem;
 import edu.wpi.first.wpilibj.command.Subsystem;
@@ -23,6 +24,8 @@ public class StrongArm extends PIDSubsystem
 		motor = new VictorSP( RobotMap.AIMING_MOTOR );
 		encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
 		encoder.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
+		encoder.setReverseDirection( true );
+		encoder.setPIDSourceType( PIDSourceType.kDisplacement );
 	}
 
 	public int getRaw()
@@ -37,7 +40,7 @@ public class StrongArm extends PIDSubsystem
 
 	public double getAngle()
 	{
-		return ( Math.abs( encoder.getDistance() % 360 ) );
+		return ( encoder.getDistance() % 360 );
 	}
 
 	public void reset()
