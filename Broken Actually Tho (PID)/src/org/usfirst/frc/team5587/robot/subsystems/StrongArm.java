@@ -24,7 +24,8 @@ public class StrongArm extends PIDSubsystem
 		ENCODER.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
 		ENCODER.setReverseDirection( true );
 		ENCODER.setPIDSourceType( PIDSourceType.kDisplacement );
-		
+		setAbsoluteTolerance( 5 );
+		getPIDController().setContinuous( false );
 	}
 
 	public int getRaw()
