@@ -6,6 +6,7 @@ import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
 import org.usfirst.frc.team5587.robot.commands.arm.HoldArm;
 import org.usfirst.frc.team5587.robot.commands.arm.Lift;
+import org.usfirst.frc.team5587.robot.commands.arm.PIDLift;
 import org.usfirst.frc.team5587.robot.commands.firing.Fire;
 import org.usfirst.frc.team5587.robot.commands.firing.Spin;
 
@@ -48,6 +49,9 @@ public class OI
     	up.whenReleased(new HoldArm() );
     	down.whenPressed( new Lift( false ) );
     	down.whenReleased( new HoldArm() );
+    	top.whenPressed( new PIDLift( 0.0 ));
+    	drop.whenPressed( new PIDLift( 73.0 ) );
+    	shoot.whenPressed( new PIDLift( 200 ) );
 	}
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
