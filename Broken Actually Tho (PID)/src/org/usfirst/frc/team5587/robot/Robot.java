@@ -59,6 +59,7 @@ public class Robot extends IterativeRobot
         chooser.addObject("Do Nothing", null );
         chooser.addObject("Wait then default", new WaitAuto());
         chooser.addObject( "Low Bar", new LowAuto());
+        chooser.addObject( "PID", new PIDAuto() );
         SmartDashboard.putData( "Auto Chooser", chooser );
         
        

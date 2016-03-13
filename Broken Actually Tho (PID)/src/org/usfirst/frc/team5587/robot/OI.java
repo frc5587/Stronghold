@@ -49,9 +49,6 @@ public class OI
     	up.whenReleased(new HoldArm() );
     	down.whenPressed( new Lift( false ) );
     	down.whenReleased( new HoldArm() );
-    	top.whenPressed( new PIDLift( 0.0 ));
-    	drop.whenPressed( new PIDLift( 73.0 ) );
-    	shoot.whenPressed( new PIDLift( 200 ) );
 	}
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
