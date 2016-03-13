@@ -2,6 +2,7 @@ package org.usfirst.frc.team5587.robot.subsystems;
 
 import org.usfirst.frc.team5587.robot.RobotMap;
 
+import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.VictorSP;
 import edu.wpi.first.wpilibj.command.Subsystem;
@@ -15,14 +16,34 @@ public class StrongArm extends Subsystem
 	
     private VictorSP motor;
     private Encoder encoder;
+    private DigitalInput topLimit, bottomLimit;
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	public StrongArm(){
 		motor = new VictorSP( RobotMap.AIMING_MOTOR );
 		encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
 		encoder.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
+		topLimit = new DigitalInput( RobotMap.TOP_LIMIT );
+		bottomLimit = new DigitalInput( RobotMap.BOTTOM_LIMIT );
 }
-
+public boolean atTop()
+{
+	if(topLimit.get()){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
+public boolean atBottom()
+{
+	if(bottomLimit.get()){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
 public int getRaw()
 {
 	return encoder.getRaw();
@@ -46,9 +67,23 @@ public void reset()
 public void move( boolean d )
 {
 	if( d )
-		motor.set( power );
+	{
+		if(!atTop()){
+			motor.set( power );
+		}
+		else{
+			stop();
+		}
+	}
 	else
-		motor.set( -power );
+	{
+		if(!atBottom()){
+			motor.set( -power );
+		}
+		else{
+			stop();
+		}
+	}
 }
 
 public void stop()

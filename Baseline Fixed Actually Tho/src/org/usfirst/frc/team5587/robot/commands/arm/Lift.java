@@ -10,8 +10,6 @@ import edu.wpi.first.wpilibj.command.Command;
  */
 public class Lift extends Command {
 	
-	private static double power = -.6;
-	
 	private StrongArm arm;
 	private boolean direction;
     public Lift( boolean d ) {
