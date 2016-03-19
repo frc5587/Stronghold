@@ -14,15 +14,14 @@ public class StrongArm extends Subsystem
 {
 	private static final double power = -.8;
 	
-    private VictorSP motor;
-    private Encoder encoder;
+    private final VictorSP motor = new VictorSP( RobotMap.AIMING_MOTOR );
+    private final Encoder encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
     private DigitalInput topLimit, bottomLimit;
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	public StrongArm(){
-		motor = new VictorSP( RobotMap.AIMING_MOTOR );
-		encoder = new Encoder( RobotMap.ENCODER_A, RobotMap.ENCODER_B );
-		encoder.setDistancePerPulse( (360.0 / 500) * (16.0 / 50) );
+		encoder.setDistancePerPulse( (360.0 / 497) * (16.0 / 50) );
+		
 		topLimit = new DigitalInput( RobotMap.TOP_LIMIT );
 		bottomLimit = new DigitalInput( RobotMap.BOTTOM_LIMIT );
 }

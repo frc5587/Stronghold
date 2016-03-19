@@ -78,9 +78,9 @@ public class OI {
         armDown.whenPressed(new HoldLift());
         armUp.whileHeld(new RelativeLift(true));
         armUp.whenPressed(new HoldLift());
-        top.whenPressed(new AbsoluteLift(0.0));
-        drop.whenPressed(new AbsoluteLift(230));
-        shoot_angle.whenReleased(new AbsoluteLift(75));
+        top.whenPressed(new AbsoluteLift( 1 ));
+        drop.whenPressed(new AbsoluteLift( 3 ));
+        shoot_angle.whenReleased(new AbsoluteLift( 2 ));
 
 
         // SmartDashboard Buttons
