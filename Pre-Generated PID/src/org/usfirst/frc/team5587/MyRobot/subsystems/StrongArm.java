@@ -9,10 +9,10 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc5587.MyRobot.subsystems;
+package org.usfirst.frc.team5587.MyRobot.subsystems;
 
-import org.usfirst.frc5587.MyRobot.RobotMap;
-import org.usfirst.frc5587.MyRobot.commands.*;
+import org.usfirst.frc.team5587.MyRobot.RobotMap;
+import org.usfirst.frc.team5587.MyRobot.commands.*;
 
 import edu.wpi.first.wpilibj.CounterBase.EncodingType;
 import edu.wpi.first.wpilibj.DigitalInput;
