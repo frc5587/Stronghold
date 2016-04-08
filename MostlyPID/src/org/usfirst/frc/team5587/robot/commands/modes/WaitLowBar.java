@@ -1,27 +1,25 @@
-package org.usfirst.frc.team5587.robot.commands;
+package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.Trot;
-import org.usfirst.frc.team5587.robot.commands.AutoLift;
+import org.usfirst.frc.team5587.robot.commands.WaitTime;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- * Allows for a sequencing of commands for Autonomous mode (needs to be tested)
+ *
  */
-public class LowAuto extends CommandGroup
-{
+public class WaitLowBar extends CommandGroup {
     
-    public  LowAuto()
-    {
+    public  WaitLowBar() {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
+    	
     	requires( Robot.hooves );
-    	requires( Robot.arm );
-    	addSequential(new AutoLift());
-    	addSequential( new Trot( -.5, 0, 4 ) );
+    	addSequential( new WaitTime( 7 ) );
+    	addSequential( new LowAuto() );
+    	
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());

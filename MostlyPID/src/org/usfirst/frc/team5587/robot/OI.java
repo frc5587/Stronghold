@@ -4,8 +4,10 @@ import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
-import org.usfirst.frc.team5587.robot.commands.Fire;
-import org.usfirst.frc.team5587.robot.commands.Spin;
+import org.usfirst.frc.team5587.robot.commands.manual.HoldArm;
+import org.usfirst.frc.team5587.robot.commands.manual.Lift;
+import org.usfirst.frc.team5587.robot.commands.firing.Fire;
+import org.usfirst.frc.team5587.robot.commands.firing.Spin;
 
 /**
  * This class is the glue that binds the controls on the physical operator
@@ -57,4 +59,21 @@ public class OI
     // Start the command when the button is released  and let it run the command
     // until it is finished as determined by it's isFinished method.
     // button.whenReleased(new ExampleCommand());
+	public void enablePID()
+	{
+		up = null;
+		down = null;
+	}
+	
+	public void enableManual()
+	{
+    	up = new JoystickButton( driver, RobotMap.UP );
+    	down = new JoystickButton( driver, RobotMap.DOWN);
+    	
+
+    	up.whenPressed(new Lift( true ));
+    	up.whenReleased(new HoldArm() );
+    	down.whenPressed( new Lift( false ) );
+    	down.whenReleased( new HoldArm() );
+	}
 }

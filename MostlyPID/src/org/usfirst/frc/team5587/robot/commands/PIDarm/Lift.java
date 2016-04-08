@@ -9,7 +9,7 @@
 // it from being updated in the future.
 
 
-package org.usfirst.frc.team5587.robot.commands;
+package org.usfirst.frc.team5587.robot.commands.PIDarm;
 
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc.team5587.robot.Robot;

@@ -1,25 +1,24 @@
-package org.usfirst.frc.team5587.robot.commands;
+package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.WaitTime;
+import org.usfirst.frc.team5587.robot.commands.Canter;
 
+import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
  *
  */
-public class WaitLowBar extends CommandGroup {
+public class TeleOpManual extends CommandGroup {
     
-    public  WaitLowBar() {
+    public  TeleOpManual( Joystick j) {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
-    	
     	requires( Robot.hooves );
-    	addSequential( new WaitTime( 7 ) );
-    	addSequential( new LowAuto() );
-    	
+    	addSequential( new Canter( j ) );
+    	Robot.oi.enableManual();
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());
