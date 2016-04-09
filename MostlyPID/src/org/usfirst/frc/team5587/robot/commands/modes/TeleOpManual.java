@@ -2,7 +2,6 @@ package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.commands.Canter;
-
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
@@ -17,8 +16,8 @@ public class TeleOpManual extends CommandGroup {
         //      addSequential(new Command2());
         // these will run in order.
     	requires( Robot.hooves );
-    	addSequential( new Canter( j ) );
     	Robot.oi.enableManual();
+    	addSequential( new Canter( j ) );
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());

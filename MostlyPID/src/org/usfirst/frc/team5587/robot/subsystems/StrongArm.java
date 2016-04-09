@@ -51,13 +51,13 @@ public class StrongArm extends PIDSubsystem {
 
         // Use these to get going:
         // setSetpoint() -  Sets where the PID controller should move the system
-        //                  to
+        // Mikias was here                 to
         // enable() - Enables the PID controller.
     }
     
     public boolean isTop()
-    {
-    	return top.get();
+    {	
+    	return !top.get();
     }
 
     public void initDefaultCommand() {
@@ -90,6 +90,11 @@ public class StrongArm extends PIDSubsystem {
     public void stop()
     {
     	motor.set(0);
+    }
+    
+    public void reset()
+    {
+    	encoder.reset();
     }
 
     protected double returnPIDInput() {

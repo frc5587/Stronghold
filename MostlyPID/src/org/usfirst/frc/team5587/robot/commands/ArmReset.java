@@ -22,17 +22,17 @@ public class ArmReset extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	Robot.arm.setSetpointRelative( -5 );
+    	Robot.arm.reset();
+    	Robot.arm.setSetpoint( 0 );
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        return Robot.arm.isTop();
+    	return true;
     }
 
     // Called once after isFinished returns true
     protected void end() {
-    	Robot.arm.disable();
     }
 
     // Called when another command which requires one or more of the same

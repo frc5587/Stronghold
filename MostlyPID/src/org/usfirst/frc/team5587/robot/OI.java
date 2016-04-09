@@ -28,12 +28,13 @@ public class OI
 	{
 		//Joysticks
 		driver = new Joystick( RobotMap.DRIVER );
-    	codriver = new Joystick( RobotMap.CODRIVER );
 	
     	//Buttons
     	sweepIn = new JoystickButton( driver, RobotMap.SWEEP_IN );
     	prime = new JoystickButton( driver, RobotMap.PRIME );
     	fire = new JoystickButton( driver, RobotMap.FIRE );
+    	up = null;
+    	down = null;
     
     	//Buttons and Commands
     	sweepIn.toggleWhenPressed( new Spin( false ) ); //While held the launch wheels will spin inwards
@@ -69,7 +70,6 @@ public class OI
 	{
     	up = new JoystickButton( driver, RobotMap.UP );
     	down = new JoystickButton( driver, RobotMap.DOWN);
-    	
 
     	up.whenPressed(new Lift( true ));
     	up.whenReleased(new HoldArm() );
