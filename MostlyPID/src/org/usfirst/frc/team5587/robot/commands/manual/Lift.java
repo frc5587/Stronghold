@@ -1,4 +1,4 @@
-package org.usfirst.frc.team5587.robot.commands.arm;
+package org.usfirst.frc.team5587.robot.commands.manual;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
@@ -22,12 +22,12 @@ public class Lift extends Command {
 
     // Called just before this Command runs the first time
     protected void initialize() {
-    	arm.move( direction );
+    	arm.disable();
     }
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	
+    	arm.move( direction );
     }
 
     // Make this return true when this Command no longer needs to run execute()

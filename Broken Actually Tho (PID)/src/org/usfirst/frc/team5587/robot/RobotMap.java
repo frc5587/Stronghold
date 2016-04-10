@@ -22,8 +22,6 @@ public class RobotMap
 	public static int LEFT_SHOOTER_WHEEL = 8;
 	public static int RIGHT_SHOOTER_WHEEL = 9;
 	public static int LOADING_SERVO = 6;
-	public static int TOP_LIMIT = 2;
-	public static int BOTTOM_LIMIT = 3;
 	
     //Aiming mechanism
 	public static int AIMING_MOTOR = 7;
@@ -40,6 +38,9 @@ public class RobotMap
 	public static int SWEEP_IN = 5; //Spins the wheels inward to collect a boulder
 	public static int UP = 3;
 	public static int DOWN = 2;
+	public static int TOP = 6;
+	public static int SHOOT = 7;
+	public static int DROP = 8;
 	
     // If you are using multiple modules, make sure to define both the port
     // number and the module. For example you with a rangefinder:

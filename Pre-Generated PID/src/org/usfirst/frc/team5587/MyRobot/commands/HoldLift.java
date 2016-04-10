@@ -1,38 +1,33 @@
-package org.usfirst.frc.team5587.robot.commands.arm;
+package org.usfirst.frc.team5587.MyRobot.commands;
 
-import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
+import org.usfirst.frc.team5587.MyRobot.Robot;
 
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
  *
  */
-public class Lift extends Command {
-	
-	private StrongArm arm;
-	private boolean direction;
-    public Lift( boolean d ) {
+public class HoldLift extends Command {
+
+    public HoldLift() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
-    	requires( Robot.arm );
-    	arm = Robot.arm;
-    	direction = d;
+    	requires( Robot.strongArm );
     }
 
     // Called just before this Command runs the first time
     protected void initialize() {
-    	arm.move( direction );
+    	Robot.strongArm.enable();
+    	Robot.strongArm.setSetpoint( Robot.strongArm.getSetpoint() );
     }
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        return false;
+        return Robot.strongArm.onTarget();
     }
 
     // Called once after isFinished returns true
