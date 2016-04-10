@@ -13,7 +13,6 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import java.io.IOException;
 
 import org.usfirst.frc.team5587.classes.CameraServer;
-import org.usfirst.frc.team5587.robot.commands.aimbot.Angler;
 import org.usfirst.frc.team5587.robot.commands.modes.*;
 import org.usfirst.frc.team5587.robot.subsystems.*;
 
@@ -139,7 +138,6 @@ public class Robot extends IterativeRobot
     public void teleopPeriodic()
     {
         Scheduler.getInstance().run();
-        Angler a = new Angler( table );
 
         SmartDashboard.putNumber( "Arm Angle: ", arm.getAngle());
         

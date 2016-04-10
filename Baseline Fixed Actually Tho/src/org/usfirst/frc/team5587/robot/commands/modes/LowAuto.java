@@ -2,7 +2,6 @@ package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.commands.Trot;
-import org.usfirst.frc.team5587.robot.commands.arm.Lift;
 import org.usfirst.frc.team5587.robot.commands.arm.TimeLift;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
