@@ -68,6 +68,8 @@ public class Robot extends IterativeRobot {
         autoChooser.addObject( "Low Bar: Start Throttle at Bottom", new LowAuto());
         autoChooser.addObject("Wait then Low Bar", new WaitLowBar() );
         autoChooser.addObject( "Reset Arm", new ResetAuto() );
+        autoChooser.addObject("High Goal", new HighGoalAuto() );
+        autoChooser.addObject( "Low Goal", new LowGoalAuto() );
         SmartDashboard.putData( "Auto Chooser", autoChooser );
         
         teleChooser = new SendableChooser();
@@ -135,6 +137,7 @@ public class Robot extends IterativeRobot {
      */
     public void teleopPeriodic() {
         Scheduler.getInstance().run();
+        SmartDashboard.putNumber("Setpoint", arm.getSetpoint());
     }
 
     /**

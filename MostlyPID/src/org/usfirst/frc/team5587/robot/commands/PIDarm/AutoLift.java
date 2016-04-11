@@ -11,17 +11,19 @@ import edu.wpi.first.wpilibj.command.Command;
 public class AutoLift extends Command {
 
 	private StrongArm sinister;
-    public AutoLift() {
+	private double setPoint;
+    public AutoLift( double s ) {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);'
     	requires( Robot.arm );
     	sinister = Robot.arm;
+    	setPoint = s;
     }
 
     // Called just before this Command runs the first time
     protected void initialize() {
     	sinister.enable();
-    	sinister.setSetpoint( StrongArm.ABSOLUTE_BOTTOM );
+    	sinister.setSetpoint( setPoint );
     }
 
     // Called repeatedly when this Command is scheduled to run
