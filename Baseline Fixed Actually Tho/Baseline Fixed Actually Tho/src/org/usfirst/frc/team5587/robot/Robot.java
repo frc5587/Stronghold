@@ -13,7 +13,6 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import java.io.IOException;
 
 import org.usfirst.frc.team5587.classes.CameraServer;
-import org.usfirst.frc.team5587.robot.commands.aimbot.Angler;
 import org.usfirst.frc.team5587.robot.commands.modes.*;
 import org.usfirst.frc.team5587.robot.subsystems.*;
 
@@ -56,10 +55,12 @@ public class Robot extends IterativeRobot
         oi = new OI();
 		teleOp = new TeleOpDrive( oi.driver );
         autoChooser = new SendableChooser();
-        autoChooser.addDefault("Default Auto", new BasicAuto());
-        autoChooser.addObject("Do Nothing", null );
-        autoChooser.addObject("Wait then default", new WaitAuto());
+
+        autoChooser.addDefault("Do Nothing", null );
+        autoChooser.addObject("Drive Forward", new BasicAuto());
+        autoChooser.addObject("Wait then drive", new WaitAuto());
         autoChooser.addObject( "Low Bar: Start Throttle at Bottom", new LowAuto());
+        autoChooser.addObject("Wait then Low Bar", new WaitLowAuto() );
         SmartDashboard.putData( "Auto Chooser", autoChooser );
         
        
@@ -145,7 +146,6 @@ public class Robot extends IterativeRobot
     public void teleopPeriodic()
     {
         Scheduler.getInstance().run();
-        Angler a = new Angler( table );
 
         SmartDashboard.putNumber( "Arm Angle: ", arm.getAngle());
         
@@ -162,6 +162,8 @@ public class Robot extends IterativeRobot
         SmartDashboard.putString( "DB/String 7", "I13: " + pdp.getCurrent(13));
         SmartDashboard.putString( "DB/String 8", "I14: " + pdp.getCurrent(14));
         SmartDashboard.putString( "DB/String 9", "I15: " + pdp.getCurrent(15));
+        
+        SmartDashboard.putString("Spinning Wheels", firingWheels.direction());
     }
     
     /**

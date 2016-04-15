@@ -28,12 +28,8 @@ public class StrongArm extends Subsystem
 }
 public boolean atTop()
 {
-	if(topLimit.get()){
-		return false;
-	}
-	else{
-		return true;
-	}
+	return !topLimit.get();
+	
 }
 public boolean atBottom()
 {

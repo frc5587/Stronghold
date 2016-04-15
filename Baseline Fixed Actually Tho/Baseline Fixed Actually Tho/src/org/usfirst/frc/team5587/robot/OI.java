@@ -40,8 +40,9 @@ public class OI
     	blind = new JoystickButton( driver, RobotMap.BLIND );
     
     	//Buttons and Commands
-    	sweepIn.toggleWhenPressed( new Spin( false ) ); //While held the launch wheels will spin inwards
-    	prime.toggleWhenPressed( new Spin( true ) ); //While held the launch wheels will spin outwards
+    	sweepIn.toggleWhenPressed( new Spin( false ) );
+    	prime.toggleWhenPressed( new Spin( true ) );
+    	
     	fire.whenPressed( new Fire() ); //If pressed while prime is also pressed, will fire the ball
     	up.whenPressed(new Lift( true ));
     	up.whenReleased(new HoldArm() );
