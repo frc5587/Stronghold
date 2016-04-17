@@ -21,7 +21,7 @@ public class OI
     // number it is.
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
-    public Joystick driver, codriver;
+    public Joystick driver;
 	Button sweepIn, prime, up, down,fire;
     
 	public OI()
@@ -60,12 +60,21 @@ public class OI
     // Start the command when the button is released  and let it run the command
     // until it is finished as determined by it's isFinished method.
     // button.whenReleased(new ExampleCommand());
+	
+	/**
+	 * Nullifies the up and down buttons so their actions do not accidentally
+	 * interfere with the arm's PID control via the throttle
+	 */
 	public void enablePID()
 	{
 		up = null;
 		down = null;
 	}
 	
+	/**
+	 * Sets the up and down buttons as well as their appropriate commands so that
+	 * the arm can be positioned manually
+	 */
 	public void enableManual()
 	{
     	up = new JoystickButton( driver, RobotMap.UP );

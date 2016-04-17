@@ -1,4 +1,4 @@
-package org.usfirst.frc.team5587.robot.commands;
+package org.usfirst.frc.team5587.robot.commands.PIDarm;
 
 import org.usfirst.frc.team5587.robot.Robot;
 
