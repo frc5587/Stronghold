@@ -15,6 +15,10 @@ public class Canter extends Command
 	private Joystick stick;
 	private Hooves hooves;
 	
+	/**
+	 * Canter is the basic command for joystick control of the robot
+	 * @param s The joystick from which input is to be read.
+	 */
     public Canter( Joystick s )
     {
         // Use requires() here to declare subsystem dependencies

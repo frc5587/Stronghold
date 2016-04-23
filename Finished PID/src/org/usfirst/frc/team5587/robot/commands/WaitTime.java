@@ -8,13 +8,13 @@ import edu.wpi.first.wpilibj.command.Command;
 public class WaitTime extends Command
 {
 
-	private double targetTime, elapsedTime;
-	private long startTime, endTime;
+	private double targetTime, //Desired time to wait
+				   elapsedTime; //Time since beginning
+	private long startTime, //Time command initializes
+				 endTime; //Time value refreshed each time isFinished is called
 	
-	/*
-	 * @param p The power of the motors
-	 * @param c The curve of the motion
-	 * @param t The time (in seconds) to drive
+	/**
+	 * @param t The time (in seconds) to wait
 	 */
     public WaitTime( double t )
     {
@@ -24,7 +24,7 @@ public class WaitTime extends Command
     // Called just before this Command runs the first time
     protected void initialize()
     {
-    	startTime = System.currentTimeMillis();
+    	startTime = System.currentTimeMillis(); //Mark the time at which the command starts
     }
 
     // Called repeatedly when this Command is scheduled to run
@@ -36,10 +36,11 @@ public class WaitTime extends Command
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished()
     {
-    	endTime = System.currentTimeMillis();
-    	elapsedTime = (endTime - startTime)/1000.0;
+    	endTime = System.currentTimeMillis(); //Mark the current time
+    	elapsedTime = (endTime - startTime)/1000.0; //Calculate the passage of time
     	
-    	return (elapsedTime >= targetTime - .05) &&( elapsedTime <= targetTime +.05 );
+    	//Check to see if elapsedTime has surpassed targetTime
+    	return (elapsedTime >= targetTime );
     }
 
     // Called once after isFinished returns true

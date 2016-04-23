@@ -11,11 +11,19 @@ import edu.wpi.first.wpilibj.command.Command;
 public class Trot extends Command
 {
 
-	private double power, curve, targetTime, elapsedTime;
-	private long startTime, endTime;
+	private double power, //Power for the motors
+				   curve, //Curve of the motion
+				   targetTime, //The duration of the motion
+				   elapsedTime; //A double representation of the time since beginning the command
+	private long startTime, //The timestamp at the time the command initializes
+				 endTime; //The timestamp everytime the isFinished method is run
+	
 	private Hooves hooves;
 	
-	/*
+	/**
+	 * Basic autonomous driving that moves the robot according to the power, curve,
+	 * and time desired.
+	 * 
 	 * @param p The power of the motors
 	 * @param c The curve of the motion
 	 * @param t The time (in seconds) to drive
@@ -39,22 +47,23 @@ public class Trot extends Command
     // Called repeatedly when this Command is scheduled to run
     protected void execute()
     {
-    	hooves.trot( power, curve );
+    	hooves.trot( power, curve ); //GO
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished()
     {
-    	endTime = System.currentTimeMillis();
-    	elapsedTime = (endTime - startTime)/1000.0;
+    	endTime = System.currentTimeMillis(); //Time at which the check is being made
+    	elapsedTime = (endTime - startTime)/1000.0; //Total time the command has been running
     	
-    	return (elapsedTime >= targetTime - .05) &&( elapsedTime <= targetTime +.05 );
+    	//Check if elapsedTime has surpassed the target time
+    	return ( elapsedTime >= targetTime );
     }
 
     // Called once after isFinished returns true
     protected void end()
     {
-    	hooves.stop();
+    	hooves.stop(); //STOP
     }
 
     // Called when another command which requires one or more of the same
