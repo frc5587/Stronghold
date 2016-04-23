@@ -1,4 +1,4 @@
-package org.usfirst.frc.team5587.robot.commands.manual;
+package org.usfirst.frc.team5587.robot.commands.arm;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.subsystems.StrongArm;

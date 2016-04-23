@@ -1,26 +1,26 @@
-package org.usfirst.frc.team5587.robot.commands.modes;
+package org.usfirst.frc.team5587.robot.commands.modes.auto;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.PIDarm.AutoLift;
-import org.usfirst.frc.team5587.robot.commands.firing.*;
+import org.usfirst.frc.team5587.robot.commands.Trot;
+import org.usfirst.frc.team5587.robot.commands.WaitTime;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *
+ * Allows for a sequencing of commands for Autonomous mode (needs to be tested)
  */
-public class HighGoalAuto extends CommandGroup {
+public class WaitAuto extends CommandGroup
+{
     
-    public  HighGoalAuto() {
+    public  WaitAuto()
+    {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
-    	requires( Robot.arm );
-    	addSequential( new AutoLift( 70 ) );
-    	addParallel( new Spin( true ));
-    	addSequential( new WaitFire() );
-    	addSequential( new StopSpinning() );
+    	requires( Robot.hooves );
+    	addSequential( new WaitTime(10) );
+    	addSequential( new Trot( 1, 0, 1.8 ) );
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());

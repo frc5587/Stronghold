@@ -1,7 +1,7 @@
-package org.usfirst.frc.team5587.robot.commands.modes;
+package org.usfirst.frc.team5587.robot.commands.modes.auto;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.ArmReset;
+import org.usfirst.frc.team5587.robot.commands.arm.ArmReset;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 

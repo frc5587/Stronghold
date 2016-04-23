@@ -1,19 +1,19 @@
-package org.usfirst.frc.team5587.robot.commands.modes;
+package org.usfirst.frc.team5587.robot.commands.modes.auto;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.Canter;
-import org.usfirst.frc.team5587.robot.commands.PIDarm.zAxis;
+import org.usfirst.frc.team5587.robot.commands.Trot;
+import org.usfirst.frc.team5587.robot.commands.arm.AutoLift;
+import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
 
-import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *
+ * Allows for a sequencing of commands for Autonomous mode (needs to be tested)
  */
-public class TeleOpPID extends CommandGroup
+public class LowAuto extends CommandGroup
 {
     
-    public  TeleOpPID( Joystick stick )
+    public  LowAuto()
     {
         // Add Commands here:
         // e.g. addSequential(new Command1());
@@ -21,9 +21,8 @@ public class TeleOpPID extends CommandGroup
         // these will run in order.
     	requires( Robot.hooves );
     	requires( Robot.arm );
-    	Robot.oi.enablePID();
-    	addParallel( new zAxis( Robot.oi.driver ) );
-    	addSequential( new Canter( stick ) );
+    	addSequential(new AutoLift( StrongArm.ABSOLUTE_BOTTOM ));
+    	addSequential( new Trot( -.5, 0, 4 ) );
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());

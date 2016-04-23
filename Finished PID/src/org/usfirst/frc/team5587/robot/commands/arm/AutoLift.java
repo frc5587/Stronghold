@@ -1,34 +1,38 @@
-package org.usfirst.frc.team5587.robot.commands;
+package org.usfirst.frc.team5587.robot.commands.arm;
 
 import org.usfirst.frc.team5587.robot.Robot;
+import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
 
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
  *
  */
-public class ArmReset extends Command {
+public class AutoLift extends Command {
 
-    public ArmReset() {
+	private StrongArm sinister;
+	private double setPoint;
+    public AutoLift( double s ) {
         // Use requires() here to declare subsystem dependencies
-        // eg. requires(chassis);
+        // eg. requires(chassis);'
     	requires( Robot.arm );
+    	sinister = Robot.arm;
+    	setPoint = s;
     }
 
     // Called just before this Command runs the first time
     protected void initialize() {
-    	Robot.arm.enable();
+    	sinister.enable();
+    	sinister.setSetpoint( setPoint );
     }
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	Robot.arm.reset();
-    	Robot.arm.setSetpoint( 0 );
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-    	return true;
+    	return sinister.onTarget();
     }
 
     // Called once after isFinished returns true

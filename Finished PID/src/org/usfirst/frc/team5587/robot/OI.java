@@ -4,8 +4,8 @@ import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
-import org.usfirst.frc.team5587.robot.commands.manual.HoldArm;
-import org.usfirst.frc.team5587.robot.commands.manual.Lift;
+import org.usfirst.frc.team5587.robot.commands.arm.HoldArm;
+import org.usfirst.frc.team5587.robot.commands.arm.Lift;
 import org.usfirst.frc.team5587.robot.commands.firing.Fire;
 import org.usfirst.frc.team5587.robot.commands.firing.Spin;
 

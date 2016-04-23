@@ -1,7 +1,7 @@
-package org.usfirst.frc.team5587.robot.commands.modes;
+package org.usfirst.frc.team5587.robot.commands.modes.auto;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.PIDarm.AutoLift;
+import org.usfirst.frc.team5587.robot.commands.arm.AutoLift;
 import org.usfirst.frc.team5587.robot.commands.firing.*;
 import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
 

@@ -11,6 +11,7 @@
 
 package org.usfirst.frc.team5587.robot;
 
+import edu.wpi.first.wpilibj.CameraServer;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.CommandGroup;
@@ -19,8 +20,8 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-import org.usfirst.frc.team5587.robot.CameraServer;
-import org.usfirst.frc.team5587.robot.commands.modes.*;
+import org.usfirst.frc.team5587.robot.commands.modes.auto.*;
+import org.usfirst.frc.team5587.robot.commands.modes.teleop.*;
 import org.usfirst.frc.team5587.robot.subsystems.*;
 
 /**
