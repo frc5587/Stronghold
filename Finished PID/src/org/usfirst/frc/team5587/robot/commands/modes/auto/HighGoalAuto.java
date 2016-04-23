@@ -7,7 +7,7 @@ import org.usfirst.frc.team5587.robot.commands.firing.*;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *
+ *	
  */
 public class HighGoalAuto extends CommandGroup {
     
@@ -18,9 +18,8 @@ public class HighGoalAuto extends CommandGroup {
         // these will run in order.
     	requires( Robot.arm );
     	addSequential( new AutoLift( 70 ) );
-    	addParallel( new Spin( true ));
-    	addSequential( new WaitFire() );
-    	addSequential( new StopSpinning() );
+    	addParallel( new TimeSpin( true, 5 ));
+    	addSequential( new WaitFire( 2 ) );
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());

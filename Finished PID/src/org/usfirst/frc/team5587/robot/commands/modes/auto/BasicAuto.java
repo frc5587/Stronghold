@@ -6,7 +6,7 @@ import org.usfirst.frc.team5587.robot.commands.Trot;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- * Allows for a sequencing of commands for Autonomous mode (needs to be tested)
+ * Drive the robot forward at full speed for 1.8 seconds
  */
 public class BasicAuto extends CommandGroup
 {

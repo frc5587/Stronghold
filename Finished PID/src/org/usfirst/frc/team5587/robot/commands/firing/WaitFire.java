@@ -1,8 +1,7 @@
-package org.usfirst.frc.team5587.robot.commands.modes.auto;
+package org.usfirst.frc.team5587.robot.commands.firing;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.commands.WaitTime;
-import org.usfirst.frc.team5587.robot.commands.firing.Fire;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
@@ -11,13 +10,13 @@ import edu.wpi.first.wpilibj.command.CommandGroup;
  */
 public class WaitFire extends CommandGroup {
     
-    public  WaitFire() {
+    public  WaitFire( double t ) {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
     	requires( Robot.loader );
-    	addSequential( new WaitTime( 2 ) );
+    	addSequential( new WaitTime( t ) );
     	addSequential( new Fire() );
         // To run multiple commands at the same time,
         // use addParallel()

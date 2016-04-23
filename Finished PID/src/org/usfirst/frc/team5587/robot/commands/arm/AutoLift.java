@@ -12,6 +12,12 @@ public class AutoLift extends Command {
 
 	private StrongArm sinister;
 	private double setPoint;
+	
+	/**
+	 * Moves the arm to a specified setpoint
+	 * 
+	 * @param s The setpoint to move the arm
+	 */
     public AutoLift( double s ) {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);'
@@ -32,7 +38,7 @@ public class AutoLift extends Command {
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-    	return sinister.onTarget();
+    	return sinister.onTarget(); //Stop the command when the arm says it is on target
     }
 
     // Called once after isFinished returns true

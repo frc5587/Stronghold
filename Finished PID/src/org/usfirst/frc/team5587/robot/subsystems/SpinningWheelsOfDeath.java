@@ -23,6 +23,9 @@ public class SpinningWheelsOfDeath extends Subsystem
 		launchWheels = new RobotDrive( RobotMap.LEFT_SHOOTER_WHEEL, RobotMap.RIGHT_SHOOTER_WHEEL );
 	}
 	
+	/**
+	 * @param d Spins the wheels in a specific direction: true = out, false = in.
+	 */
 	public void spin( boolean d )
 	{
 		if( d )

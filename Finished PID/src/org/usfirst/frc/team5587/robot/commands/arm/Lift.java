@@ -12,6 +12,11 @@ public class Lift extends Command {
 	
 	private StrongArm arm;
 	private boolean direction;
+	
+	/**
+	 * Moves the arm in the desired direction
+	 * @param d The direction (true = up, false = down) to move the arm
+	 */
     public Lift( boolean d ) {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
@@ -22,7 +27,7 @@ public class Lift extends Command {
 
     // Called just before this Command runs the first time
     protected void initialize() {
-    	arm.disable();
+    	arm.disable(); //Make sure the arm's PID controller is not running
     }
 
     // Called repeatedly when this Command is scheduled to run

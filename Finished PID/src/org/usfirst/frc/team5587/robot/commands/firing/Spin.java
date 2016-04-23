@@ -6,15 +6,18 @@ import org.usfirst.frc.team5587.robot.subsystems.SpinningWheelsOfDeath;
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- *
+ * Spins the Spinning Wheels of Death either inwards (intake) or outwards (launch)
+ * as desired.
  */
 public class Spin extends Command
 {
 	
 	private SpinningWheelsOfDeath wheels;
-	
 	private boolean direction;
 	
+	/**
+	 * @param d The direction to spin: true = out, false = in.
+	 */
     public Spin( boolean d )
     {
         // Use requires() here to declare subsystem dependencies
@@ -46,7 +49,7 @@ public class Spin extends Command
     // Called once after isFinished returns true
     protected void end()
     {
-    		wheels.stop();
+    	wheels.stop();
     }
 
     // Called when another command which requires one or more of the same

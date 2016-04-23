@@ -1,36 +1,37 @@
 package org.usfirst.frc.team5587.robot.commands.firing;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.subsystems.BoulderLoader;
+import org.usfirst.frc.team5587.robot.subsystems.SpinningWheelsOfDeath;
 
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- * Actuates the servo on the arm, pushing a boulder into the spinning
- * wheels
+ *
  */
-public class Fire extends Command
-{
+public class TimeSpin extends Command {
 
-	private BoulderLoader loader;
-	private static final int LOADING_ANGLE = 80;
-	private long startTime, endTime;
-	private double elapsedTime, targetTime;
-    public Fire()
+	private double targetTime, //Desired time to spin
+	   			   elapsedTime; //Time since beginning
+	private long startTime, //Time command initializes
+	 			 endTime; //Time value refreshed each time isFinished is called
+	private boolean direction;
+	private SpinningWheelsOfDeath wheels;
+	
+    public TimeSpin( boolean d, double t )
     {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
-    	requires( Robot.loader );
-    	loader = Robot.loader;
-    	targetTime = 1.0;
+    	requires( Robot.firingWheels );
+    	direction = d;
+    	targetTime = t;
+    	wheels = Robot.firingWheels;
     }
 
     // Called just before this Command runs the first time
     protected void initialize()
     {
-    	loader.set(LOADING_ANGLE);
     	startTime = System.currentTimeMillis();
-    	
+    	wheels.spin( direction );
     }
 
     // Called repeatedly when this Command is scheduled to run
@@ -42,17 +43,17 @@ public class Fire extends Command
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished()
     {
-    	endTime = System.currentTimeMillis();
-    	elapsedTime = (endTime - startTime)/1000.0;
+    	endTime = System.currentTimeMillis(); //Mark the current time
+    	elapsedTime = (endTime - startTime)/1000.0; //Calculate the passage of time
     	
-    	return (elapsedTime >= targetTime - .05) &&( elapsedTime <= targetTime +.05 );
+    	//Check to see if elapsedTime has surpassed targetTime
+    	return (elapsedTime >= targetTime );
     }
 
     // Called once after isFinished returns true
     protected void end()
     {
-    	
-    	loader.set( 178 );
+    	wheels.stop();
     }
 
     // Called when another command which requires one or more of the same

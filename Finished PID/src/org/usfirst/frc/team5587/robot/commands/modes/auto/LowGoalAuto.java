@@ -20,9 +20,8 @@ public class LowGoalAuto extends CommandGroup {
 
     	requires( Robot.arm );
     	addSequential( new AutoLift( StrongArm.ABSOLUTE_BOTTOM ) );
-    	addSequential( new Spin( true ) );
-    	addSequential( new Fire() );
-    	addSequential( new StopSpinning() );
+    	addSequential( new TimeSpin( true, 5 ) );
+    	addSequential( new WaitFire( 2 ) );
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());
