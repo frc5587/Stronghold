@@ -6,7 +6,8 @@ import edu.wpi.first.wpilibj.Servo;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
 /**
- *
+ * The servo mounted on the Strong Arm that pushes boulders into the
+ * Spinning Wheels of Death to launch them.
  */
 public class BoulderLoader extends Subsystem
 {
@@ -26,7 +27,8 @@ public class BoulderLoader extends Subsystem
 		loader.setAngle( angle );
 	}
 	
-    public void initDefaultCommand()
+    @Override
+	public void initDefaultCommand()
     {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());

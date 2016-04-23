@@ -1,0 +1,8 @@
+org.usfirst.frc.team5587.classes
+org.usfirst.frc.team5587.robot
+org.usfirst.frc.team5587.robot.commands
+org.usfirst.frc.team5587.robot.commands.arm
+org.usfirst.frc.team5587.robot.commands.firing
+org.usfirst.frc.team5587.robot.commands.modes.auto
+org.usfirst.frc.team5587.robot.commands.modes.teleop
+org.usfirst.frc.team5587.robot.subsystems

@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- * Allows driver control of the robot
+ * Canter is the basic command for joystick control of the robot
  */
 public class Canter extends Command 
 {
@@ -16,7 +16,6 @@ public class Canter extends Command
 	private Hooves hooves;
 	
 	/**
-	 * Canter is the basic command for joystick control of the robot
 	 * @param s The joystick from which input is to be read.
 	 */
     public Canter( Joystick s )
@@ -29,32 +28,37 @@ public class Canter extends Command
     }
 
     // Called just before this Command runs the first time
-    protected void initialize() 
+    @Override
+	protected void initialize() 
     {
     	
     }
 
     // Called repeatedly when this Command is scheduled to run
-    protected void execute()
+    @Override
+	protected void execute()
     {
     	hooves.canter( stick );
     }
 
     // Make this return true when this Command no longer needs to run execute()
-    protected boolean isFinished()
+    @Override
+	protected boolean isFinished()
     {
         return false;
     }
 
     // Called once after isFinished returns true
-    protected void end()
+    @Override
+	protected void end()
     {
     	
     }
 
     // Called when another command which requires one or more of the same
     // subsystems is scheduled to run
-    protected void interrupted()
+    @Override
+	protected void interrupted()
     {
     	
     }

@@ -8,7 +8,10 @@ import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- * Allows for a sequencing of commands for Autonomous mode (needs to be tested)
+ * Moves Caligula backwards under the low bar in autonomous.
+ * 
+ * Moves the Strong Arm all the way down, then moves Caligula backwards
+ * through the low bar.
  */
 public class LowAuto extends CommandGroup
 {

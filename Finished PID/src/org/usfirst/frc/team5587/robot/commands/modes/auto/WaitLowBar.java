@@ -6,7 +6,7 @@ import org.usfirst.frc.team5587.robot.commands.WaitTime;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *
+ * Executes LowAuto mode after waiting 7 seconds.
  */
 public class WaitLowBar extends CommandGroup {
     

@@ -5,7 +5,9 @@ import org.usfirst.frc.team5587.robot.Robot;
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- *
+ * Resets the encoder of the Strong Arm to zero and also sets the Arm's
+ * setpoint to zero. To be used in manual mode when resetting the robot
+ * to start in PID mode.
  */
 public class ArmReset extends Command {
 
@@ -16,27 +18,32 @@ public class ArmReset extends Command {
     }
 
     // Called just before this Command runs the first time
-    protected void initialize() {
+    @Override
+	protected void initialize() {
     	Robot.arm.enable();
     }
 
     // Called repeatedly when this Command is scheduled to run
-    protected void execute() {
+    @Override
+	protected void execute() {
     	Robot.arm.reset();
     	Robot.arm.setSetpoint( 0 );
     }
 
     // Make this return true when this Command no longer needs to run execute()
-    protected boolean isFinished() {
+    @Override
+	protected boolean isFinished() {
     	return true;
     }
 
     // Called once after isFinished returns true
-    protected void end() {
+    @Override
+	protected void end() {
     }
 
     // Called when another command which requires one or more of the same
     // subsystems is scheduled to run
-    protected void interrupted() {
+    @Override
+	protected void interrupted() {
     }
 }

@@ -8,7 +8,10 @@ import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *
+ * Scores a Low Goal from the spybot position in autonomous.
+ * 
+ * Moves the Strong Arm into the low position, spins up the Spinning
+ * Wheels of Death, and fires a boulder.
  */
 public class LowGoalAuto extends CommandGroup {
     

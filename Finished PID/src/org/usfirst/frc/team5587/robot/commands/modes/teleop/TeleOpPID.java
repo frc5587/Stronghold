@@ -8,7 +8,8 @@ import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *
+ * Allows the driver to drive Caligula around and control the position
+ * of the Strong Arm through the use of the throttle and PID.
  */
 public class TeleOpPID extends CommandGroup
 {

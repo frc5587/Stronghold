@@ -7,7 +7,7 @@ import org.usfirst.frc.team5587.robot.commands.WaitTime;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- * Allows for a sequencing of commands for Autonomous mode (needs to be tested)
+ * Executes BasicAuto mode after waiting 10 seconds.
  */
 public class WaitAuto extends CommandGroup
 {

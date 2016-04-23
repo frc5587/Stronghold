@@ -823,36 +823,43 @@ public class RobotDrive implements MotorSafety
 	    }
 	}
 
+	@Override
 	public void setExpiration(double timeout)
 	{
 		m_safetyHelper.setExpiration(timeout);
 	}
 
+	@Override
 	public double getExpiration()
 	{
 		return m_safetyHelper.getExpiration();
 	}
 
+	@Override
 	public boolean isAlive()
 	{
 		return m_safetyHelper.isAlive();
 	}
 
+	@Override
 	public boolean isSafetyEnabled()
 	{
 		return m_safetyHelper.isSafetyEnabled();
 	}
 
+	@Override
 	public void setSafetyEnabled(boolean enabled)
 	{
 	    m_safetyHelper.setSafetyEnabled(enabled);
 	}
 
+	@Override
 	public String getDescription()
 	{
 		return "Robot Drive";
 	}
 
+	@Override
 	public void stopMotor()
 	{
 		if (m_frontLeftMotor != null)

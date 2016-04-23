@@ -6,7 +6,7 @@ import org.usfirst.frc.team5587.robot.subsystems.SpinningWheelsOfDeath;
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- *
+ * Spins the Spinning Wheels of Death for a defined time period
  */
 public class TimeSpin extends Command {
 
@@ -17,6 +17,10 @@ public class TimeSpin extends Command {
 	private boolean direction;
 	private SpinningWheelsOfDeath wheels;
 	
+	/**
+	 * @param d The direction of spinning
+	 * @param t The time to spin
+	 */
     public TimeSpin( boolean d, double t )
     {
         // Use requires() here to declare subsystem dependencies
@@ -28,20 +32,23 @@ public class TimeSpin extends Command {
     }
 
     // Called just before this Command runs the first time
-    protected void initialize()
+    @Override
+	protected void initialize()
     {
     	startTime = System.currentTimeMillis();
     	wheels.spin( direction );
     }
 
     // Called repeatedly when this Command is scheduled to run
-    protected void execute()
+    @Override
+	protected void execute()
     {
     	
     }
 
     // Make this return true when this Command no longer needs to run execute()
-    protected boolean isFinished()
+    @Override
+	protected boolean isFinished()
     {
     	endTime = System.currentTimeMillis(); //Mark the current time
     	elapsedTime = (endTime - startTime)/1000.0; //Calculate the passage of time
@@ -51,14 +58,16 @@ public class TimeSpin extends Command {
     }
 
     // Called once after isFinished returns true
-    protected void end()
+    @Override
+	protected void end()
     {
     	wheels.stop();
     }
 
     // Called when another command which requires one or more of the same
     // subsystems is scheduled to run
-    protected void interrupted()
+    @Override
+	protected void interrupted()
     {
     	
     }

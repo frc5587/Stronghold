@@ -6,7 +6,7 @@ import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- *
+ * Moves the arm in the desired direction. To be used in Manual Mode.
  */
 public class Lift extends Command {
 	
@@ -14,7 +14,6 @@ public class Lift extends Command {
 	private boolean direction;
 	
 	/**
-	 * Moves the arm in the desired direction
 	 * @param d The direction (true = up, false = down) to move the arm
 	 */
     public Lift( boolean d ) {
@@ -26,26 +25,31 @@ public class Lift extends Command {
     }
 
     // Called just before this Command runs the first time
-    protected void initialize() {
+    @Override
+	protected void initialize() {
     	arm.disable(); //Make sure the arm's PID controller is not running
     }
 
     // Called repeatedly when this Command is scheduled to run
-    protected void execute() {
+    @Override
+	protected void execute() {
     	arm.move( direction );
     }
 
     // Make this return true when this Command no longer needs to run execute()
-    protected boolean isFinished() {
+    @Override
+	protected boolean isFinished() {
         return false;
     }
 
     // Called once after isFinished returns true
-    protected void end() {
+    @Override
+	protected void end() {
     }
 
     // Called when another command which requires one or more of the same
     // subsystems is scheduled to run
-    protected void interrupted() {
+    @Override
+	protected void interrupted() {
     }
 }

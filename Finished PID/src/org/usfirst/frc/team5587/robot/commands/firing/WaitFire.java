@@ -6,7 +6,7 @@ import org.usfirst.frc.team5587.robot.commands.WaitTime;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *
+ * Runs the Fire command after waiting for a specified time.
  */
 public class WaitFire extends CommandGroup {
     

@@ -7,7 +7,11 @@ import org.usfirst.frc.team5587.robot.commands.firing.*;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *	
+ *	Scores a High Goal from the spybot position in autonomous.
+ * 
+ *	Moves the Strong Arm to the angle (Determined to be 70) for firing a 
+ *  High Goal from the spybot position. Spins up the Spinning Wheels of Death
+ *  and fires the boulder.
  */
 public class HighGoalAuto extends CommandGroup {
     

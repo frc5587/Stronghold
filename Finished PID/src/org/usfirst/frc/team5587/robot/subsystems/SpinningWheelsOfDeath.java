@@ -6,8 +6,8 @@ import org.usfirst.frc.team5587.robot.RobotMap;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
 /**
- * The two wheels on the front of the launch mechanism that spin in
- * or out depending on our needs
+ * The two wheels on the front of the launch mechanism that load boulders
+ * in and spit them back out.
  */
 public class SpinningWheelsOfDeath extends Subsystem
 {
@@ -39,7 +39,8 @@ public class SpinningWheelsOfDeath extends Subsystem
 		launchWheels.drive( 0, 0);
 	}
 
-    public void initDefaultCommand()
+    @Override
+	public void initDefaultCommand()
     {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());

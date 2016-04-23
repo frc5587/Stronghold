@@ -21,7 +21,7 @@ public class OI
     // number it is.
     // Joystick stick = new Joystick(port);
     // Button button = new JoystickButton(stick, buttonNumber);
-    public Joystick driver, codriver;
+    public Joystick driver;
 	Button sweepIn, prime, up, down,fire;
     
 	public OI()

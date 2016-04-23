@@ -22,19 +22,22 @@ public class WaitTime extends Command
     }
 
     // Called just before this Command runs the first time
-    protected void initialize()
+    @Override
+	protected void initialize()
     {
     	startTime = System.currentTimeMillis(); //Mark the time at which the command starts
     }
 
     // Called repeatedly when this Command is scheduled to run
-    protected void execute()
+    @Override
+	protected void execute()
     {
     	
     }
 
     // Make this return true when this Command no longer needs to run execute()
-    protected boolean isFinished()
+    @Override
+	protected boolean isFinished()
     {
     	endTime = System.currentTimeMillis(); //Mark the current time
     	elapsedTime = (endTime - startTime)/1000.0; //Calculate the passage of time
@@ -44,14 +47,16 @@ public class WaitTime extends Command
     }
 
     // Called once after isFinished returns true
-    protected void end()
+    @Override
+	protected void end()
     {
     
     }
 
     // Called when another command which requires one or more of the same
     // subsystems is scheduled to run
-    protected void interrupted()
+    @Override
+	protected void interrupted()
     {
     	
     }

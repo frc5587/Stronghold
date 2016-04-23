@@ -51,7 +51,8 @@ public class Robot extends IterativeRobot {
      * This function is run when the robot is first started up and should be
      * used for any initialization code.
      */
-    public void robotInit() {
+    @Override
+	public void robotInit() {
         oi = new OI();
 
         autoChooser = new SendableChooser();
@@ -80,15 +81,18 @@ public class Robot extends IterativeRobot {
      * This function is called when the disabled button is hit.
      * You can use it to reset subsystems before shutting down.
      */
-    public void disabledInit(){
+    @Override
+	public void disabledInit(){
 
     }
 
-    public void disabledPeriodic() {
+    @Override
+	public void disabledPeriodic() {
         Scheduler.getInstance().run();
     }
 
-    public void autonomousInit() {
+    @Override
+	public void autonomousInit() {
         // schedule the autonomous command (example)
     	autonomousCommand = (CommandGroup) autoChooser.getSelected();
         
@@ -111,11 +115,13 @@ public class Robot extends IterativeRobot {
     /**
      * This function is called periodically during autonomous
      */
-    public void autonomousPeriodic() {
+    @Override
+	public void autonomousPeriodic() {
         Scheduler.getInstance().run();
     }
 
-    public void teleopInit() {
+    @Override
+	public void teleopInit() {
     	teleOp = (CommandGroup) teleChooser.getSelected();
         // This makes sure that the autonomous stops running when
         // teleop starts running. If you want the autonomous to
@@ -128,7 +134,8 @@ public class Robot extends IterativeRobot {
     /**
      * This function is called periodically during operator control
      */
-    public void teleopPeriodic() {
+    @Override
+	public void teleopPeriodic() {
         Scheduler.getInstance().run();
         SmartDashboard.putNumber("Setpoint", arm.getSetpoint());
     }
@@ -136,7 +143,8 @@ public class Robot extends IterativeRobot {
     /**
      * This function is called periodically during test mode
      */
-    public void testPeriodic() {
+    @Override
+	public void testPeriodic() {
         LiveWindow.run();
     }
 }
