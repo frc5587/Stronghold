@@ -1,4 +1,4 @@
-package org.usfirst.frc.team5587.robot.commands.modes.auto;
+package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.commands.Trot;

@@ -1,29 +1,28 @@
-package org.usfirst.frc.team5587.robot.commands.modes.auto;
+package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.commands.arm.AutoLift;
 import org.usfirst.frc.team5587.robot.commands.firing.*;
-import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- * Scores a Low Goal from the spybot position in autonomous.
+ *	Scores a High Goal from the spybot position in autonomous.
  * 
- * Moves the Strong Arm into the low position, spins up the Spinning
- * Wheels of Death, and fires a boulder.
+ *	Moves the Strong Arm to the angle (Determined to be 70) for firing a 
+ *  High Goal from the spybot position. Spins up the Spinning Wheels of Death
+ *  and fires the boulder.
  */
-public class LowGoalAuto extends CommandGroup {
+public class HighGoalAuto extends CommandGroup {
     
-    public  LowGoalAuto() {
+    public  HighGoalAuto() {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
-
     	requires( Robot.arm );
-    	addSequential( new AutoLift( StrongArm.ABSOLUTE_BOTTOM ) );
-    	addSequential( new TimeSpin( true, 5 ) );
+    	addSequential( new AutoLift( 70 ) );
+    	addParallel( new TimeSpin( true, 5 ));
     	addSequential( new WaitFire( 2 ) );
         // To run multiple commands at the same time,
         // use addParallel()

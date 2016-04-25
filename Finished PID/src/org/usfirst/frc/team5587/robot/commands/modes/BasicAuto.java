@@ -1,29 +1,24 @@
-package org.usfirst.frc.team5587.robot.commands.modes.auto;
+package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.arm.AutoLift;
-import org.usfirst.frc.team5587.robot.commands.firing.*;
+import org.usfirst.frc.team5587.robot.commands.Trot;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- *	Scores a High Goal from the spybot position in autonomous.
- * 
- *	Moves the Strong Arm to the angle (Determined to be 70) for firing a 
- *  High Goal from the spybot position. Spins up the Spinning Wheels of Death
- *  and fires the boulder.
+ * Drive Caligula forward at full speed for 1.8 seconds
  */
-public class HighGoalAuto extends CommandGroup {
+public class BasicAuto extends CommandGroup
+{
     
-    public  HighGoalAuto() {
+    public  BasicAuto()
+    {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
-    	requires( Robot.arm );
-    	addSequential( new AutoLift( 70 ) );
-    	addParallel( new TimeSpin( true, 5 ));
-    	addSequential( new WaitFire( 2 ) );
+    	requires( Robot.hooves );
+    	addSequential( new Trot( 1, 0, 1.8 ) );
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());

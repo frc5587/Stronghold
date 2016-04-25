@@ -20,8 +20,7 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-import org.usfirst.frc.team5587.robot.commands.modes.auto.*;
-import org.usfirst.frc.team5587.robot.commands.modes.teleop.*;
+import org.usfirst.frc.team5587.robot.commands.modes.*;
 import org.usfirst.frc.team5587.robot.commands.arm.ArmReset;
 import org.usfirst.frc.team5587.robot.subsystems.*;
 

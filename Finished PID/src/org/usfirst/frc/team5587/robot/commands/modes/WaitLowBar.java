@@ -1,30 +1,25 @@
-package org.usfirst.frc.team5587.robot.commands.modes.teleop;
+package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.Canter;
-import org.usfirst.frc.team5587.robot.commands.arm.Throttled;
+import org.usfirst.frc.team5587.robot.commands.WaitTime;
 
-import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- * Allows the driver to drive Caligula around and control the position
- * of the Strong Arm through the use of the throttle and PID.
+ * Executes LowAuto mode after waiting 7 seconds.
  */
-public class TeleOpPID extends CommandGroup
-{
+public class WaitLowBar extends CommandGroup {
     
-    public  TeleOpPID( Joystick stick )
-    {
+    public  WaitLowBar() {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
+    	
     	requires( Robot.hooves );
-    	requires( Robot.arm );
-    	Robot.oi.enablePID();
-    	addParallel( new Throttled( Robot.oi.driver ) );
-    	addSequential( new Canter( stick ) );
+    	addSequential( new WaitTime( 7 ) );
+    	addSequential( new LowAuto() );
+    	
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());

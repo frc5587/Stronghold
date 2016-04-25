@@ -1,31 +1,24 @@
-package org.usfirst.frc.team5587.robot.commands.modes.auto;
+package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.Trot;
-import org.usfirst.frc.team5587.robot.commands.arm.AutoLift;
-import org.usfirst.frc.team5587.robot.subsystems.StrongArm;
-
+import org.usfirst.frc.team5587.robot.commands.Canter;
+import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
- * Moves Caligula backwards under the low bar in autonomous.
- * 
- * Moves the Strong Arm all the way down, then moves Caligula backwards
- * through the low bar.
+ * Allows the driver to drive Caligula around and control the position
+ * of the Strong Arm manually through use of buttons.
  */
-public class LowAuto extends CommandGroup
-{
+public class TeleOpManual extends CommandGroup {
     
-    public  LowAuto()
-    {
+    public  TeleOpManual( Joystick j) {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
     	requires( Robot.hooves );
-    	requires( Robot.arm );
-    	addSequential(new AutoLift( StrongArm.ABSOLUTE_BOTTOM ));
-    	addSequential( new Trot( -.5, 0, 4 ) );
+    	Robot.oi.enableManual();
+    	addSequential( new Canter( j ) );
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());
