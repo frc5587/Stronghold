@@ -43,7 +43,7 @@ public class RobotMap {
 	//Buttons
 	public static int FIRE = 1; //Begins sequence of actually shooting a boulder
 	public static int PRIME = 4;
-	public static int SWEEP_IN = 5; //Spins the wheels inward to collect a boulder
-	public static int UP = 3;
-	public static int DOWN = 2;
+	public static int SWEEP_IN = 3; //Spins the wheels inward to collect a boulder
+	public static int UP = 8;
+	public static int DOWN = 7;
 }

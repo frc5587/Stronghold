@@ -23,6 +23,7 @@ public class OI
     // Button button = new JoystickButton(stick, buttonNumber);
     public Joystick driver;
 	Button sweepIn, prime, up, down,fire;
+	public boolean pid;
     
 	public OI()
 	{
@@ -33,13 +34,18 @@ public class OI
     	sweepIn = new JoystickButton( driver, RobotMap.SWEEP_IN );
     	prime = new JoystickButton( driver, RobotMap.PRIME );
     	fire = new JoystickButton( driver, RobotMap.FIRE );
-    	up = null;
-    	down = null;
+		up = new JoystickButton( driver, RobotMap.UP );
+    	down = new JoystickButton( driver, RobotMap.DOWN);
+		
     
     	//Buttons and Commands
     	sweepIn.toggleWhenPressed( new Spin( false ) ); //While held the launch wheels will spin inwards
     	prime.toggleWhenPressed( new Spin( true ) ); //While held the launch wheels will spin outwards
     	fire.whenPressed( new Fire() ); //If pressed while prime is also pressed, will fire the ball
+    	up.whenPressed(new Lift( true ));
+    	up.whenReleased(new HoldArm() );
+    	down.whenPressed( new Lift( false ) );
+    	down.whenReleased( new HoldArm() );
 	}
     // There are a few additional built in buttons you can use. Additionally,
     // by subclassing Button you can create custom triggers and bind those to
@@ -67,8 +73,7 @@ public class OI
 	 */
 	public void enablePID()
 	{
-		up = null;
-		down = null;
+		pid = true;
 	}
 	
 	/**
@@ -77,12 +82,6 @@ public class OI
 	 */
 	public void enableManual()
 	{
-    	up = new JoystickButton( driver, RobotMap.UP );
-    	down = new JoystickButton( driver, RobotMap.DOWN);
-
-    	up.whenPressed(new Lift( true ));
-    	up.whenReleased(new HoldArm() );
-    	down.whenPressed( new Lift( false ) );
-    	down.whenReleased( new HoldArm() );
+		pid = false;
 	}
 }

@@ -22,16 +22,20 @@ public class Lift extends Command {
 
     // Called just before this Command runs the first time
     protected void initialize() {
-    	arm.disable();
+    	if( !Robot.oi.pid )
+    		arm.disable();
     }
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	arm.move( direction );
+    	if( !Robot.oi.pid )
+    		arm.move( direction );
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
+    	if( Robot.oi.pid )
+    		return true;
         return false;
     }
 

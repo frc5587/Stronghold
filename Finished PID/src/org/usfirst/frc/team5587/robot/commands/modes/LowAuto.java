@@ -2,6 +2,7 @@ package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
 import org.usfirst.frc.team5587.robot.commands.Trot;
+import org.usfirst.frc.team5587.robot.commands.WaitTime;
 import org.usfirst.frc.team5587.robot.commands.PIDarm.AutoLift;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
@@ -20,7 +21,8 @@ public class LowAuto extends CommandGroup
         // these will run in order.
     	requires( Robot.hooves );
     	requires( Robot.arm );
-    	addSequential(new AutoLift());
+    	addParallel(new AutoLift());
+    	addSequential(new WaitTime(3));
     	addSequential( new Trot( -.5, 0, 4 ) );
         // To run multiple commands at the same time,
         // use addParallel()
