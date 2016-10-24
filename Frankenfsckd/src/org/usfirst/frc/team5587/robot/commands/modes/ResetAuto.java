@@ -1,24 +1,23 @@
 package org.usfirst.frc.team5587.robot.commands.modes;
 
 import org.usfirst.frc.team5587.robot.Robot;
-import org.usfirst.frc.team5587.robot.commands.Canter;
-import edu.wpi.first.wpilibj.Joystick;
+import org.usfirst.frc.team5587.robot.commands.PIDarm.ArmReset;
+
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
 /**
  *
  */
-public class TeleOpManual extends CommandGroup {
+public class ResetAuto extends CommandGroup {
     
-    public  TeleOpManual( Joystick j) {
+    public  ResetAuto() {
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());
         // these will run in order.
-    	requires( Robot.hooves );
-    	Robot.arm.disable();
-    	Robot.oi.enableManual();
-    	addSequential( new Canter( j ) );
+    	requires( Robot.arm );
+    	addSequential( new ArmReset() );
+    	
         // To run multiple commands at the same time,
         // use addParallel()
         // e.g. addParallel(new Command1());
