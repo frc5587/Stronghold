@@ -11,12 +11,10 @@
 
 package org.usfirst.frc.team5587.MyRobot;
 
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.*;
 
 import org.usfirst.frc.team5587.MyRobot.commands.*;
-import org.usfirst.frc.team5587.MyRobot.subsystems.*;
 
 
 /**
