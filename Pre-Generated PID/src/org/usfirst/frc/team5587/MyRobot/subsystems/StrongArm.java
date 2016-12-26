@@ -12,15 +12,9 @@
 package org.usfirst.frc.team5587.MyRobot.subsystems;
 
 import org.usfirst.frc.team5587.MyRobot.RobotMap;
-import org.usfirst.frc.team5587.MyRobot.commands.*;
-
-import edu.wpi.first.wpilibj.CounterBase.EncodingType;
 import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.Encoder;
-import edu.wpi.first.wpilibj.PIDSourceType;
 import edu.wpi.first.wpilibj.SpeedController;
-import edu.wpi.first.wpilibj.VictorSP;
-
 import edu.wpi.first.wpilibj.command.PIDSubsystem;
 import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 
