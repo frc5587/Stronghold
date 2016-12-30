@@ -13,36 +13,37 @@ public class RobotMap
     // public static int rightMotor = 2;
 	
 	//Drive Train motors
-	public static int LEFT_FRONT_MOTOR = 0;
-	public static int LEFT_REAR_MOTOR = 1;
-	public static int RIGHT_FRONT_MOTOR = 2;
-	public static int RIGHT_REAR_MOTOR = 3;
+	public static int LEFT_FRONT_MOTOR = 9;
+	public static int LEFT_REAR_MOTOR = 9;
+	public static int RIGHT_FRONT_MOTOR = 9;
+	public static int RIGHT_REAR_MOTOR = 9;
 	
 	//Shooting mechanism
-	public static int LEFT_SHOOTER_WHEEL = 8;
+	public static int LEFT_SHOOTER_WHEEL = 9;
 	public static int RIGHT_SHOOTER_WHEEL = 9;
-	public static int LOADING_SERVO = 6;
-	public static int TOP_LIMIT = 2;
-	public static int BOTTOM_LIMIT = 3;
+	public static int LOADING_SERVO = 9;
+	public static int TOP_LIMIT = 9;
+	public static int BOTTOM_LIMIT = 9;
 	
     //Aiming mechanism
-	public static int AIMING_MOTOR = 7;
-	public static int ENCODER_A = 0;
-	public static int ENCODER_B = 1;
+	public static int AIMING_MOTOR = 9;
+	public static int ENCODER_A = 9;
+	public static int ENCODER_B = 9;
 	
-	public static int LIGHT = 1;
+	public static int LIGHT = 9;
 	
 	//Joysticks
-	public static int DRIVER = 0;
-	public static int CODRIVER = 1;
+	public static int DRIVER = 9;
+	public static int CODRIVER = 9;
 	
 	//Buttons
-	public static int FIRE = 1; //Begins sequence of actually shooting a boulder
-	public static int PRIME = 4;
-	public static int SWEEP_IN = 5; //Spins the wheels inward to collect a boulder
-	public static int UP = 3;
-	public static int DOWN = 2;
-	public static int BLIND = 6;
+	public static int FIRE = 9; //Begins sequence of actually shooting a boulder
+	public static int PRIME = 9;
+	public static int SWEEP_IN = 9; //Spins the wheels inward to collect a boulder
+	public static int UP = 9;
+	public static int DOWN = 9;
+	public static int BLIND = 9;
+	
 	
     // If you are using multiple modules, make sure to define both the port
     // number and the module. For example you with a rangefinder:
