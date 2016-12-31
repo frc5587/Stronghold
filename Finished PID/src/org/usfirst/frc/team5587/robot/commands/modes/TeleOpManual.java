@@ -16,7 +16,7 @@ public class TeleOpManual extends CommandGroup {
         //      addSequential(new Command2());
         // these will run in order.
     	requires( Robot.hooves );
-    	Robot.oi.enableManual();
+    	Robot.oi.enableManual(); //buttons that control shooter + lifter too
     	addSequential( new Canter( j ) );
         // To run multiple commands at the same time,
         // use addParallel()

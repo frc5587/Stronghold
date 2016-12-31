@@ -16,8 +16,8 @@ public class Hooves extends Subsystem
     // here. Call these from Commands.
 
 	//Provides a limitation to the maximum speed of the drive train (needs to be tested)
-	private static final double SCALE_FACTOR_Y = .75;
-	private static final double SCALE_FACTOR_X = .4;
+	private static final double SCALE_FACTOR_Y = .75; //scale input of joystick so it technically lowers max speed
+	private static final double SCALE_FACTOR_X = .4; //both the linear speed and turning speed
 	
 	private RobotDrive trotter;
 	
@@ -38,7 +38,7 @@ public class Hooves extends Subsystem
 	 */
 	public void trot( double pwr, double curve)
 	{
-		trotter.drive( pwr , curve );
+		trotter.drive( pwr , curve ); //this method allows autonomous drive of class
 	}
 
 	/*
@@ -50,7 +50,7 @@ public class Hooves extends Subsystem
 	{
 		double xValue = stick.getX();
 		double yValue = stick.getY();
-		trotter.arcadeDrive( -yValue * SCALE_FACTOR_Y, -xValue * SCALE_FACTOR_X, false);
+		trotter.arcadeDrive( -yValue * SCALE_FACTOR_Y, -xValue * SCALE_FACTOR_X, false);//actually scaled here
 	}
 	
 	public void stop()
@@ -62,5 +62,6 @@ public class Hooves extends Subsystem
     {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
+    	// a lot of empty methods are present cuz the whole project expects them to be present when they aren't
     }
 }

@@ -6,13 +6,13 @@ import org.usfirst.frc.team5587.robot.subsystems.Hooves;
 import edu.wpi.first.wpilibj.command.Command;
 
 /**
- * Drives Pallas based on input power and curve, over a given time period (needs to be tested)
+ * Drives Caligula based on input power and curve, over a given time period (needs to be tested)
  */
 public class Trot extends Command
 {
 
 	private double power, curve, targetTime, elapsedTime;
-	private long startTime, endTime;
+	private long startTime, endTime; //really big numbers involved; number of internal clock
 	private Hooves hooves;
 	
 	/*
